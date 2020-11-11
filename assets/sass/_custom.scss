@@ -2,8 +2,13 @@
 
 // Site custom styles
 
-.layout__second-sidebar h4, .layout__second-sidebar ul {
-    margin: 0;
-    line-height: 1.3em;
-    font-size: 0.6em;
+.layout__second-sidebar h4,
+.layout__second-sidebar ul {
+	margin: 0;
+	line-height: 1.3em;
+	font-size: 0.6em;
+}
+.header__logo-image {
+	width: 50px;
+	height: 50px;
 }

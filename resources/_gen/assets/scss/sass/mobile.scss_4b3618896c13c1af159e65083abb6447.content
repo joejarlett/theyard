@@ -59,7 +59,7 @@
     .js-nav-open .mobile-nav__toggle::after {
       border-color: #fff; }
   .mobile-nav__sheet {
-    background-color: #4d4d4d;
+    background-color: #11773c;
     width: 90vw;
     height: 100vh;
     padding: 2rem;

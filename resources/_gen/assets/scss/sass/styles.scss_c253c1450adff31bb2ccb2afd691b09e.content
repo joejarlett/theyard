@@ -137,15 +137,15 @@ samp, pre {
   font-size: 1em; }
 
 a {
-  color: #000;
+  color: #11773c;
   -webkit-text-decoration-skip: objects; }
 
 :visited {
-  color: #000; }
+  color: #11773c; }
 
 a:hover,
 a:focus {
-  color: #4d4d4d; }
+  color: #11773c; }
 
 a:active {
   color: #c00; }
@@ -413,7 +413,7 @@ menu {
   .box:focus, .box:hover, .box.is-focus, .box--is-focus {
     border-color: #4d4d4d; }
   .box--highlight {
-    border-color: #000; }
+    border-color: #11773c; }
 
 .clearfix::before {
   content: '';
@@ -479,7 +479,7 @@ html.js .js-hidden {
 
 .inverted-box {
   padding: 0.70454545rem;
-  background: #4d4d4d;
+  background: #11773c;
   color: #fff;
   border-radius: 5px; }
   .inverted-box :link,
@@ -544,9 +544,9 @@ aside ol {
   border-style: solid;
   width: 95%; }
   .message.status {
-    background-color: #f4feee;
-    color: #43a808;
-    border-color: #43a808; }
+    background-color: #ccf8df;
+    color: #11773c;
+    border-color: #11773c; }
   .message.warning {
     background-color: #fffce6;
     color: #4d4d4d;
@@ -660,7 +660,7 @@ body {
   margin-top: 2.11363636rem;
   padding: 0.70454545rem 0;
   text-align: center;
-  border-top: 2px solid #4d4d4d; }
+  border-top: 2px solid #11773c; }
   .footer p {
     margin: 0; }
 
@@ -805,14 +805,14 @@ figure.podcast audio {
     padding: 0; }
   .main-menu a {
     display: block;
-    background-color: #4d4d4d;
+    background-color: #11773c;
     color: #fff;
     padding: 2px 8px;
     text-decoration: none; }
     .main-menu a:hover, .main-menu a:focus {
       background-color: #666666; }
     .main-menu a:active, .main-menu a.active {
-      background-color: #4d4d4d;
+      background-color: #11773c;
       text-decoration: underline; }
 
 .menu a.active {
@@ -837,22 +837,27 @@ figure.podcast audio {
     vertical-align: top; }
   .content input:not(:placeholder-shown):valid,
   .content textarea:not(:placeholder-shown):valid {
-    background-color: #f4feee; }
+    background-color: #ccf8df; }
   .content input:not(:placeholder-shown):invalid,
   .content textarea:not(:placeholder-shown):invalid {
     background-color: #fff0f0; }
 
 .js-submitted input:valid,
 .js-submitted textarea:valid {
-  background-color: #f4feee; }
+  background-color: #ccf8df; }
 
 .js-submitted input:invalid,
 .js-submitted textarea:invalid {
   background-color: #fff0f0; }
 
-.layout__second-sidebar h4, .layout__second-sidebar ul {
+.layout__second-sidebar h4,
+.layout__second-sidebar ul {
   margin: 0;
   line-height: 1.3em;
   font-size: 0.6em; }
+
+.header__logo-image {
+  width: 50px;
+  height: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
