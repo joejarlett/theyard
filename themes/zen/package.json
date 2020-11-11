@@ -1,0 +1,25 @@
+{
+  "name": "zen",
+  "version": "1.0.0",
+  "description": "The node.js requirements to build this project.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frjo/hugo-theme-zen.git"
+  },
+  "author": "Fredrik Jonsson",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-load-plugins": "^2.0.0",
+    "gulp-sass-lint": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "private": true
+}

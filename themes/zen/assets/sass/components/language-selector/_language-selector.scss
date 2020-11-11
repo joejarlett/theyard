@@ -1,0 +1,13 @@
+// Language selector
+
+.language-selector {
+  display: flex;
+}
+
+.language-icon {
+  margin: 0 ($zen-gutters / 2) 0 0;
+
+  @include rtl() {
+    margin: 0 0 0 ($zen-gutters / 2);
+  }
+}

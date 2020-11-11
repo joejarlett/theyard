@@ -1,0 +1,55 @@
+// Branding header
+
+.header,
+%header {
+  @include respond-to(s) {
+    display: flex;
+  }
+
+  // Wrapping link for logo.
+  &__logo {
+    margin: 0 $zen-gutters 0 0;
+
+    @include rtl() {
+      margin: 0 0 0 $zen-gutters;
+    }
+  }
+
+  // Logo image.
+  &__logo-image {
+    vertical-align: bottom;
+  }
+
+  // The name of the website.
+  &__site-name {
+    @extend %h1;
+    margin: 0;
+    display: inline-block;
+  }
+
+  // The link around the name of the website.
+  &__site-link {
+    &:link,
+    &:visited {
+      color: $text;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  // Wrapper for any blocks placed in the header region.
+  &__region {
+    @include respond-to(s) {
+      margin-left: auto;
+
+      @include rtl() {
+        margin-right: auto;
+        margin-left: 0;
+      }
+    }
+  }
+}

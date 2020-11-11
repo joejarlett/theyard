@@ -1,0 +1,92 @@
+[menu_title]
+other = "Main menu"
+
+[menu_home]
+other = "Home"
+
+[menu_mobile]
+other = "Menu"
+
+[pager_next]
+other = "Next"
+
+[pager_prev]
+other = "Prev"
+
+[taxo_tags]
+other = "Tags"
+
+[last_mod]
+other = "Updated:"
+
+[created]
+other = "Created:"
+
+[search_placeholder]
+other = "Enter the terms you wish to search for."
+
+[search_title]
+other = "Search"
+
+[search_loading]
+other = "Loading search index…"
+
+[string_at]
+other = "at"
+
+[string_by]
+other = "by"
+
+[string_follow]
+other = "follow"
+
+[string_in]
+other = "in"
+
+[string_on]
+other = "on"
+
+[string_recent_content]
+other = "Recent content"
+
+[js_required]
+other = "You must have Javascript enabled to use this function."
+
+[contact_submitted]
+other = "Your message was sent."
+
+[contact_error]
+other = "There was an error sending the message."
+
+[contact_name]
+other = "Name"
+
+[contact_name_placeholder]
+other = "Your name"
+
+[contact_mail]
+other = "E-mail address"
+
+[contact_mail_placeholder]
+other = "Your e-mail address"
+
+[contact_subject]
+other = "Subject"
+
+[contact_subject_placeholder]
+other = "A short subject"
+
+[contact_message]
+other = "Message"
+
+[contact_message_placeholder]
+other = "The messages goes here…"
+
+[contact_submit]
+other = "Send message"
+
+[contact_honypot]
+other = "Skip if you are a human"
+
+[lang_select_title]
+other = "Language selector"

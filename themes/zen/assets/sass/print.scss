@@ -1,0 +1,48 @@
+// @file
+// The print stylesheet for this theme.
+
+// Colors and Sass
+//
+// Documentation for colors and Sass mixins and variables.
+
+@import 'init';
+
+// Components
+
+@import 'components/print-none/print-none';
+
+.pager,
+%pager,
+aside,
+nav,
+footer {
+  @extend %print-none;
+}
+
+@media print {
+  html {
+    font-size: $print-font-size;
+  }
+
+  body,
+  .page {
+    background-color: $white;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  // Underline all links.
+  :link,
+  :visited {
+    text-decoration: underline;
+  }
+
+  // Add visible title after abbreviations.
+  abbr[title] {
+    &::after {
+      content: ' (' attr(title) ')';
+    }
+  }
+}

@@ -1,0 +1,42 @@
+---
+title: "The yard micro site"
+baseURL: "https://theyard.wherewemeet.app/"
+theme: "zen"
+languageCode: "en-GB"
+defaultContentLanguage: "en"
+pluralizelisttitles: false
+removePathAccents: true
+paginate: 10
+paginatePath: "page"
+rssLimit: 20
+author:
+  name: "Joe Jarlett"
+  url: "https://joejarlett.co.uk"
+  avatar: "path/to/some-image.jpg"
+
+outputFormats:
+  SearchIndex:
+    mediaType: "application/json"
+    baseName: "searchindex"
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home: ["HTML", "RSS", "JSON", "SearchIndex"]
+  section: ["HTML", "RSS", "JSON"]
+
+params:
+  contact: "joe.jarlett@gmail.com"
+  copyright: "Copyright 2020"
+  description: "The yard micro site"
+  dateformat: "2 January, 2006"
+  favicon: "apple-touch-icon.png"
+  feedlinks: false
+  footer: ""
+  icon: "apple-touch-icon.png"
+  image: "apple-touch-icon.png"
+  imageMaxWidth: 400
+  mobileMenu: true
+  poweredby: false
+  sidebar: true
+  submitted: false

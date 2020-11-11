@@ -1,0 +1,57 @@
+// Box
+//
+// A simple box style.
+//
+// A block is often styled as a box. However, this design component is
+// not applied to any blocks by default; it is used as an example of how to
+// build and document a CSS component.
+//
+// "box" is the name of our component, so we define a `.box` class that we can
+// apply to any HTML element that needs the box styling. We also provide a
+// `%box` placeholder selector so that we can easily extend the basic box
+// component with `@extend %box;`.
+//
+// Take a look at the source code for this component for more information about
+// building a good component.
+//
+// :hover - The hover/focus styling.
+// .box--highlight - The "highlight" box variant.
+
+.box,
+%box {
+  @include margin-bottom(1);
+  border: 5px solid $border;
+  padding: 1em;
+
+  // Sass compiles this to the selector: .box__title, %box__title {}
+  // The "__" (double underscore) is part of a BEM naming convention that
+  // indicates the "title" is an _element_ of (a piece of) the "box" component.
+  &__title {
+    margin: 0;
+  }
+
+  // Sass compiles this nested ruleset's selector into:
+  // .box:focus, .box:hover, .box.is-focus, .box--is-focus,
+  // %box:focus, %box:hover, %box.is-focus, %box--is-focus {}
+  //
+  // The ".box--is-focus" class is a stray class we don't actually want, but we
+  // deal with it because we often want a placeholder selector like
+  // %box--is-focus in case we need to use @extends later.
+  //
+  // The ".is-" part of the class name is a Drupal 8 BEM naming convention that
+  // indicates the "focus" is a _state_ of the "box" component.
+  &:focus,
+  &:hover,
+  &.is-focus,
+  &--is-focus {
+    border-color: $text;
+  }
+
+  // Sass compiles this to the selector: .box--highlight, %box--highlight {}
+  // The "--" (double dash) is part of a BEM naming convention that indicates
+  // the "highlight" is a _modifier_, creating a new variation of the standard
+  // "box" component.
+  &--highlight {
+    border-color: $link;
+  }
+}

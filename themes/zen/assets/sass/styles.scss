@@ -1,0 +1,66 @@
+//
+// The major stylesheet for this theme.
+//
+// We categorize our components by creating headings in this file. See the
+// description on the style guide home page for more information.
+
+// Colors and Sass
+//
+// Documentation for colors and Sass mixins and variables.
+
+@import 'init';
+
+// Defaults
+//
+// These are the default base styles applied to HTML elements.
+//
+// Component classes can override these styles, but if no class applies a style
+// to an HTML element, these styles will be the ones displayed.
+
+// Ensure fonts get loaded first to minimize front-end performance impact.
+
+@import 'base/fonts';
+@import 'base/normalize';
+
+// Layouts
+//
+// The layout styling for major parts of the page that are included with the
+// theme.
+
+@import 'layouts/layouts';
+
+// Components
+//
+// Design components are reusable designs that can be applied using just the CSS
+// class names specified in the component.
+
+@import 'components/box/box';
+@import 'components/clearfix/clearfix';
+@import 'components/header/header';
+@import 'components/hidden/hidden';
+@import 'components/highlight-mark/highlight-mark';
+@import 'components/inline-links/inline-links';
+@import 'components/inline-sibling/inline-sibling';
+@import 'components/inverted-box/inverted-box';
+@import 'components/language-selector/language-selector';
+@import 'components/list-straight-left/list-straight-left';
+@import 'components/messages/messages';
+@import 'components/responsive-video/responsive-video';
+@import 'components/visually-hidden/visually-hidden';
+@import 'components/watermark/watermark';
+@import 'components/wireframe/wireframe';
+
+// Navigation
+//
+// Navigation components are specialized design components that are used for
+// page navigation.
+
+@import 'navigation/more-link/more-link';
+@import 'navigation/navbar/navbar';
+@import 'navigation/pager/pager';
+
+// zen
+@import 'zen';
+
+// Custom
+@import 'custom';

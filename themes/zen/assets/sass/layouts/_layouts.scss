@@ -1,0 +1,132 @@
+// sass-lint:disable indentation
+
+.layout {
+  &__page {
+    max-width: $max-content-width;
+
+    @include respond-to(s) {
+      margin: 0 auto;
+      min-height: 100vh;
+    }
+  }
+
+  &__header,
+  &__footer,
+  &__main,
+  &__navigation,
+  &__first-sidebar,
+  &__second-sidebar,
+  &__page-top,
+  &__page-bottom {
+    padding: 0 $zen-gutters / 2;
+    min-width: 0;  // With display grid defaults to auto, making <pre> overflow.
+
+    @include respond-to(s) {
+      padding: 0 $zen-gutters;
+    }
+  }
+}
+
+@supports (display: grid) {
+
+  .layout {
+    &__page {
+      display: grid;
+      grid-template-areas: 'head'
+                           'nav'
+                           'top'
+                           'main'
+                           'side1'
+                           'side2'
+                           'bottom'
+                           'foot';
+      grid-template-rows: auto
+                          auto
+                          auto
+                          1fr
+                          auto
+                          auto
+                          auto
+                          auto;
+      grid-template-columns: 1fr;
+    }
+
+    @include respond-to(xl) {
+      &__page {
+          grid-template-rows: auto
+                              auto
+                              auto
+                              1fr
+                              auto
+                              auto;
+      }
+
+      &__sidebar-first {
+          grid-template-areas: 'head head'
+                               'nav nav'
+                               'side1 top'
+                               'side1 main'
+                               'side1 bottom'
+                               'foot foot';
+          grid-template-columns: 1fr
+                                 2fr;
+      }
+
+      &__sidebar-second {
+          grid-template-areas: 'head head'
+                               'nav nav'
+                               'top side2'
+                               'main side2'
+                               'bottom side2'
+                               'foot foot';
+          grid-template-columns: 2fr
+                                 1fr;
+      }
+
+      &__sidebar-two {
+          grid-template-areas: 'head head head'
+                               'nav nav nav'
+                               'side1 top side2'
+                               'side1 main side2'
+                               'side1 bottom side2'
+                               'foot foot foot';
+          grid-template-columns: 1fr
+                                 2fr
+                                 1fr;
+      }
+    }
+
+    &__header {
+      grid-area: head;
+    }
+
+    &__navigation {
+      grid-area: nav;
+    }
+
+    &__page-top {
+      grid-area: top;
+    }
+
+    &__main {
+      grid-area: main;
+    }
+
+    &__first-sidebar {
+      grid-area: side1;
+    }
+
+    &__second-sidebar {
+      grid-area: side2;
+    }
+
+    &__page-bottom {
+      grid-area: bottom;
+    }
+
+    &__footer {
+      grid-area: foot;
+    }
+  }
+
+}

@@ -1,0 +1,300 @@
+// Zen custom styles
+
+// Page
+
+body {
+  background-color: $backdrop;
+}
+
+.page {
+  background-color: $body-bg;
+}
+
+.header {
+  padding-top: $zen-gutters / 2;
+
+  @include respond-to(s) {
+    padding-top: $zen-gutters;
+  }
+}
+
+.footer {
+  @include margin-top(1.5);
+  @include padding(.5 0);
+  text-align: center;
+  border-top: 2px solid $brand;
+
+  p {
+    margin: 0;
+  }
+}
+
+// Apply smaller text to blocks, footer etc.
+
+th,
+label,
+legend,
+figcaption {
+  @include type-layout(s, 1);
+
+  @include respond-to(xxl) {
+    @include type-layout(s-2, 1);
+  }
+}
+
+.language-selector,
+article > header,
+.content-dates,
+.footer {
+  @include type-layout(xs, 1);
+
+  @include respond-to(xxl) {
+    @include type-layout(xs-2, 1);
+  }
+}
+
+// Apply heading font stack to heading, labels etc.
+
+h1,
+h2,
+h3,
+th,
+nav,
+label,
+legend,
+article > header,
+.content-dates,
+.header,
+.footer {
+  @include typeface(headings);
+  color: $headings;
+  font-weight: normal;
+}
+
+article > .content,
+aside {
+  ul {
+    @extend %ul-straight-left;
+  }
+
+  ol {
+    @extend %ol-straight-left;
+  }
+}
+
+article {
+
+  & > header {
+    color: $text-meta;
+  }
+
+  .submitted {
+    margin-bottom: .5rem;
+  }
+
+  .submitted,
+  .tags {
+    @include respond-to(l) {
+      display: inline-block;
+      padding-right: 1rem;
+    }
+  }
+
+  .tags {
+    ul {
+      display: inline-flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style-type: none;
+      @include padding-right(.2);
+    }
+  }
+
+  .content-dates {
+    color: $text-meta;
+    text-align: right;
+  }
+
+  code {
+    @include type-layout(xs, 1);
+    overflow-wrap: break-word;
+
+    @include respond-to(xxl) {
+      @include type-layout(xs-2, 1);
+    }
+  }
+
+  pre {
+    color: $code;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid $border;
+    background-color: $text-bg;
+    overflow: auto;
+    max-height: 300px;
+    max-width: 90vw;
+
+    &.chroma {
+      max-height: initial;
+      overflow-x: scroll;
+    }
+
+    & > code {
+      display: inline-block;
+      white-space: pre;
+    }
+  }
+
+  .js-clipboard-button {
+    display: block;
+  }
+}
+
+.title-submitted {
+  margin-bottom: 0;
+}
+
+figure {
+  &.image {
+    figcaption {
+      @include respond-to(s) {
+        display: table-caption;
+        caption-side: bottom;
+      }
+
+      h4,
+      p {
+        margin: 0;
+      }
+    }
+
+    @include respond-to(s) {
+      display: table;
+
+      img {
+        display: block;
+      }
+
+      &.center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      &.left {
+        @include padding(0 .5 .5 0);
+        margin: 0;
+        float: left;
+        clear: both;
+
+        figcaption {
+          @include padding(0 .5 .5 0);
+        }
+      }
+
+      &.right {
+        @include padding(0 0 .5 .5);
+        margin: 0;
+        float: right;
+        clear: both;
+
+        figcaption {
+          @include padding(0 0 .5 .5);
+        }
+      }
+    }
+  }
+
+  &.podcast {
+    audio {
+      width: 95%;
+    }
+  }
+}
+
+// Navigation
+
+.main-menu {
+  @include margin-top(.5);
+  outline: 0;
+
+  li {
+    @include margin-right(.5);
+    @include margin-bottom(.5);
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    background-color: $brand;
+    color: $text-bg;
+    padding: 2px 8px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      background-color: $brand-dark;
+    }
+
+    &:active,
+    &.active {
+      background-color: $brand;
+      text-decoration: underline;
+    }
+  }
+}
+
+.menu a.active {
+  text-decoration: none;
+}
+
+// Search
+
+.search-input {
+  @include margin(1 0);
+}
+
+.search-text {
+  @include type-layout(l, 1);
+  max-width: 80%;
+}
+
+// Form
+
+.content {
+  input,
+  textarea {
+    @include margin-bottom(.75);
+    width: 92%;
+
+    &:required+span::after {
+      content: ' *';
+      color: $red;
+      vertical-align: top;
+    }
+
+    &:not(:placeholder-shown):valid {
+      background-color: $status-bg;
+    }
+
+    &:not(:placeholder-shown):invalid {
+      background-color: $error-bg;
+    }
+  }
+}
+
+.js-submitted {
+  input,
+  textarea {
+    &:valid {
+      background-color: $status-bg;
+    }
+
+    &:invalid {
+      background-color: $error-bg;
+    }
+  }
+}
