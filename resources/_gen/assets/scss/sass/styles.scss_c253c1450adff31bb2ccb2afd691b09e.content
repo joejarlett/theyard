@@ -649,7 +649,7 @@ body {
   background-color: #eeeeee; }
 
 .page {
-  background-color: #fff; }
+  background-color: rgba(255, 255, 255, 0.8); }
 
 .header {
   padding-top: 10px; }
@@ -849,6 +849,10 @@ figure.podcast audio {
 .js-submitted input:invalid,
 .js-submitted textarea:invalid {
   background-color: #fff0f0; }
+
+body {
+  background-image: url(bgd.jpg);
+  background-size: cover; }
 
 .layout__second-sidebar h4,
 .layout__second-sidebar ul {
