@@ -852,7 +852,8 @@ figure.podcast audio {
 
 body {
   background-image: url(bgd.jpg);
-  background-size: cover; }
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .layout__second-sidebar h4,
 .layout__second-sidebar ul {
