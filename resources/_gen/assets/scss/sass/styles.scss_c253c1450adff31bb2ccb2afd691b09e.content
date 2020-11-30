@@ -850,9 +850,13 @@ figure.podcast audio {
 .js-submitted textarea:invalid {
   background-color: #fff0f0; }
 
-body {
+#page-image {
+  position: fixed;
+  width: 450px;
+  height: 100%;
+  margin-left: -450px;
   background-image: url(bgd.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat; }
 
 .layout__second-sidebar h4,
