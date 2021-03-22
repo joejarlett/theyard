@@ -27,7 +27,7 @@ outputs:
 
 params:
   contact: "joe.jarlett@gmail.com"
-  copyright: "Copyright 2020"
+  copyright: "Copyright 2021"
   description: "The yard micro site"
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
