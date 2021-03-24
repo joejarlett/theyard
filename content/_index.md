@@ -6,7 +6,8 @@ This site will remain available with some shared info.
 
 ## Email list
 
-To Join: [the-yard+subscribe@groups.io](mailto:the-yard+subscribe@groups.io)
+To Join: [the-yard+subscribe@groups.io](mailto:the-yard+subscribe@groups.io)  or [here](https://groups.io/g/the-yard)
+
 
 Please note: you need to reply to the email confirmation to complete the subscription.
 
