@@ -7,5 +7,13 @@
 {{ .Content }}
 </div>
 </article>
+
+{{ $events := where .Site.RegularPages "Section" "events" }}
+{{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
+{{- range $events -}}
+    {{ .Render "summary"}}
+{{- end -}}
+
+{{ partial "pagination.html" . }}
 </main>
 {{ end }}

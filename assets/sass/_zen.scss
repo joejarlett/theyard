@@ -227,24 +227,24 @@ figure {
     padding: 0;
   }
 
-  a {
-    display: block;
-    background-color: $brand;
-    color: $text-bg;
-    padding: 2px 8px;
-    text-decoration: none;
+  // a {
+  //   display: block;
+  //   background-color: $brand;
+  //   color: $text-bg;
+  //   padding: 2px 8px;
+  //   text-decoration: none;
 
-    &:hover,
-    &:focus {
-      background-color: $brand-dark;
-    }
+  //   &:hover,
+  //   &:focus {
+  //     background-color: $brand-dark;
+  //   }
 
-    &:active,
-    &.active {
-      background-color: $brand;
-      text-decoration: underline;
-    }
-  }
+  //   &:active,
+  //   &.active {
+  //     background-color: $brand;
+  //     text-decoration: underline;
+  //   }
+  // }
 }
 
 .menu a.active {

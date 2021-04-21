@@ -1,5 +1,5 @@
 ---
-title: "The yard micro site"
+title: "The Yard Community"
 baseURL: "https://theyard.wherewemeet.app/"
 theme: "zen"
 languageCode: "en-GB"
@@ -28,7 +28,7 @@ outputs:
 params:
   contact: "joe.jarlett@gmail.com"
   copyright: "Copyright 2021"
-  description: "The yard micro site"
+  description: "The Yard Community, St Werbughs, Bristol"
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: false
@@ -38,5 +38,5 @@ params:
   imageMaxWidth: 400
   mobileMenu: true
   poweredby: false
-  sidebar: true
+  sidebar: false
   submitted: false

@@ -803,17 +803,6 @@ figure.podcast audio {
     margin-right: 0.70454545rem;
     margin-bottom: 0.70454545rem;
     padding: 0; }
-  .main-menu a {
-    display: block;
-    background-color: #11773c;
-    color: #fff;
-    padding: 2px 8px;
-    text-decoration: none; }
-    .main-menu a:hover, .main-menu a:focus {
-      background-color: #666666; }
-    .main-menu a:active, .main-menu a.active {
-      background-color: #11773c;
-      text-decoration: underline; }
 
 .menu a.active {
   text-decoration: none; }
@@ -868,5 +857,23 @@ figure.podcast audio {
 .header__logo-image {
   width: 50px;
   height: 50px; }
+
+.main-menu li {
+  margin-right: 1.40909091rem;
+  margin-bottom: 0.70454545rem; }
+
+.main-menu a {
+  background-color: transparent;
+  color: #11773c;
+  text-decoration: none; }
+
+.main-menu:hover, .main-menu:focus {
+  background-color: transparent;
+  color: #666666; }
+
+.main-menu:active, .main-menu.active {
+  background-color: transparent;
+  color: #666666;
+  text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
