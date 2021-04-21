@@ -9,6 +9,7 @@ removePathAccents: true
 paginate: 10
 paginatePath: "page"
 rssLimit: 20
+buildFuture: true
 author:
   name: "Joe Jarlett"
   url: "https://joejarlett.co.uk"
