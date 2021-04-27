@@ -13,9 +13,11 @@
             <h2>Topics</h2>
             {{ $topics := where .Site.RegularPages "Section" "topics" }}
             {{ $topics := $topics | first 5 }}
+            <ul class="topics">
             {{- range $topics -}}
                 {{ .Render "li"}}
             {{- end -}}
+            </ul>
         </div>
     </div>
     <div class="column">
