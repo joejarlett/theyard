@@ -3,17 +3,36 @@
 {{ define "main" -}}
 <main class="main layout__main">
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
-<div class="content">
-{{ .Content }}
+<div class="content dashboard">
+    <div class="column">
+        <div>
+            <h2>{{ .Title }}</h2>
+            {{ .Content }}
+        </div>
+        <div>
+            <h2>Topics</h2>
+            {{ $topics := where .Site.RegularPages "Section" "topics" }}
+            {{ $topics := $topics | first 5 }}
+            {{- range $topics -}}
+                {{ .Render "li"}}
+            {{- end -}}
+        </div>
+    </div>
+    <div class="column">
+        <div>
+            <h2>Future events</h2>
+            
+            {{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
+            {{ $events := $events | intersect (where $events "Date" "ge" now) }}
+            {{- range $events -}}
+                {{ .Render "summary"}}
+            {{- end -}}
+            <a href="/events/">All events</a>
+        </div>
+    </div>
 </div>
 </article>
 
-{{ $events := where .Site.RegularPages "Section" "events" }}
-{{ $events := $events | intersect (where $events "Date" "ge" now) | first 5 }}
-{{- range $events -}}
-    {{ .Render "summary"}}
-{{- end -}}
 
-{{ partial "pagination.html" . }}
 </main>
 {{ end }}

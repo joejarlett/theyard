@@ -73,6 +73,7 @@ $arial:           Arial, Helvetica, 'Nimbus Sans L', sans-serif;
 $impact:          Impact, 'Arial Narrow', Helvetica, sans-serif;
 $lucida:          'Lucida Grande', 'Lucida Sans Unicode', Lucida, Verdana, sans-serif;
 $futura:          Futura, 'Century Gothic', AppleGothic, sans-serif;
+$raleway:          Raleway, 'Century Gothic', AppleGothic, sans-serif;
 
 // System-ui font stack.
 $system-ui:       system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -87,10 +88,10 @@ $menlo:           Menlo, 'Ubuntu Mono', 'DejaVu Sans Mono', 'Courier New', Couri
 // typeface() mixin.
 $typefaces: (
   body: (
-    font-family: $garamond,
+    font-family: $raleway,
   ),
   headings: (
-    font-family: $futura,
+    font-family: $raleway,
   ),
   monospace: (
     font-family: $menlo,

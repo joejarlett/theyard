@@ -4,10 +4,12 @@ menu: main
 weight: 5
 ---
 
-To access: [Click here](https://drive.google.com/drive/folders/1mWKIvF0QyMlpdDANRQERANLM23azm-gl?usp=sharing)
+[Shared documents folder](https://drive.google.com/drive/u/0/folders/0ByjDvJ8l9tK9bWsyOUNieXk1X2M)
+: This folder has been set up for any shared information. You will need to request access.
 
-This folder has been set up for any shared information. You will need to request access.
+## Residents
+[TP1 Summary](https://drive.google.com/file/d/0ByjDvJ8l9tK9VXVNWjFxeXpiR28/view?usp=sharing)
+: A summary of the Land Registry's TP1 as it applies to The Yard.  We hope it is more readable than the original but it is not a legal document and we take no responsibility for any action taken based upon what it says.
 
-- Minutes of directors meetings (to be updated regularly)
-- key decisions made in recent years
-- Finances (annual statements and other reports) link to restricted folder
+[Articles Summary](https://drive.google.com/file/d/0ByjDvJ8l9tK9V0VKR3c1bzFfOU0/view?usp=sharing)
+: A brief overview summary of the key areas covered in the Articles.  It is intended as a brief aid memoire for reference but does not replace the Articles and the full Articles must be referred to for the full detail on these areas.

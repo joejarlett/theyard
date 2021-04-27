@@ -28,9 +28,9 @@ outputs:
 
 params:
   contact: "joe.jarlett@gmail.com"
-  copyright: "Copyright 2021"
+  #copyright: "Copyright 2021"
   description: "The Yard Community, St Werbughs, Bristol"
-  dateformat: "2 January, 2006"
+  dateformat: "Mon, 2 Jan 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: false
   footer: ""
@@ -41,3 +41,7 @@ params:
   poweredby: false
   sidebar: false
   submitted: false
+  google_fonts: [
+    ["Raleway", "400, 700"],
+    ["Open Sans", "400, 400i, 700, 700i"]
+  ]

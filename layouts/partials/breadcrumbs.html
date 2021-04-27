@@ -1,0 +1,1 @@
+{{$links := split .RelPermalink "/"}}{{ if gt (len $links ) 3 }}<nav class="breadcrumbs layout__breadcrumbs">{{$link := ""}}{{ range $links }}{{ if gt (len . ) 0 }}{{$link = printf "%s/%s" $link . }} / <a href="{{ $link }}">{{ humanize . }}</a>{{ end }}{{ end }}</nav>{{ end }}

@@ -1,0 +1,21 @@
+{{ define "main" -}}
+<main class="main layout__main">
+<h1 class="title">{{ .Title }}</h1>
+{{ .Content }}
+
+<h2>Future</h2>
+{{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
+{{ $events := $events | intersect (where $events "Date" "ge" now) }}
+{{- range $events -}}
+    {{ .Render "summary"}}
+{{ end -}}
+
+<h2>Past</h2>
+{{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
+{{ $events := $events | intersect (where $events "Date" "lt" now) }}
+{{- range $events -}}
+    {{ .Render "summary"}}
+{{ end -}}
+
+</main>
+{{ end }}

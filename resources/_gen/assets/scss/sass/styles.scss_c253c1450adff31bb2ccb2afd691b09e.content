@@ -1,5 +1,5 @@
 html {
-  font-family: "Garamond Premier Pro", Charter, "Times New Roman", serif;
+  font-family: Raleway, "Century Gothic", AppleGothic, sans-serif;
   font-size: 137.5%;
   line-height: 1.40909091em;
   -ms-text-size-adjust: 100%;
@@ -189,7 +189,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Garamond Premier Pro", Charter, "Times New Roman", serif;
+  font-family: Raleway, "Century Gothic", AppleGothic, sans-serif;
   line-height: 1.40909091rem;
   font-size: 100%;
   box-sizing: border-box;
@@ -225,7 +225,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+  font-family: Raleway, "Century Gothic", AppleGothic, sans-serif;
   margin-right: 1.05681818rem;
   margin-bottom: 1.05681818rem;
   display: inline-block;
@@ -363,11 +363,11 @@ menu {
     .layout__page {
       margin: 0 auto;
       min-height: 100vh; } }
-.layout__header, .layout__footer, .layout__main, .layout__navigation, .layout__first-sidebar, .layout__second-sidebar, .layout__page-top, .layout__page-bottom {
+.layout__header, .layout__footer, .layout__main, .layout__navigation, .layout__breadcrumbs, .layout__first-sidebar, .layout__second-sidebar, .layout__page-top, .layout__page-bottom {
   padding: 0 10px;
   min-width: 0; }
   @media (min-width: 666px) {
-    .layout__header, .layout__footer, .layout__main, .layout__navigation, .layout__first-sidebar, .layout__second-sidebar, .layout__page-top, .layout__page-bottom {
+    .layout__header, .layout__footer, .layout__main, .layout__navigation, .layout__breadcrumbs, .layout__first-sidebar, .layout__second-sidebar, .layout__page-top, .layout__page-bottom {
       padding: 0 20px; } }
 @supports (display: grid) {
   .layout__page {
@@ -701,7 +701,7 @@ article > header,
 .content-dates,
 .header,
 .footer {
-  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+  font-family: Raleway, "Century Gothic", AppleGothic, sans-serif;
   color: #4d4d4d;
   font-weight: normal; }
 
@@ -858,9 +858,15 @@ figure.podcast audio {
   width: 50px;
   height: 50px; }
 
+.breadcrumbs {
+  font-size: 0.7em;
+  margin-right: auto; }
+  .breadcrumbs a {
+    color: #cccccc; }
+
 .main-menu li {
   margin-right: 1.40909091rem;
-  margin-bottom: 0.70454545rem; }
+  margin-bottom: 0; }
 
 .main-menu a {
   background-color: transparent;
@@ -875,5 +881,33 @@ figure.podcast audio {
   background-color: transparent;
   color: #666666;
   text-decoration: none; }
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  .dashboard .column {
+    flex-basis: 100%;
+    padding: 0px; }
+    @media (min-width: 999px) {
+      .dashboard .column {
+        flex-basis: 50%;
+        padding: 10px; } }
+.section-events.list-view,
+.section-groups.list-view,
+.section-topics.list-view {
+  background-color: rgba(17, 119, 60, 0.2);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px 3px;
+  box-shadow: 10px 10px 15px #aaaaaa; }
+  .section-events.list-view h2,
+  .section-groups.list-view h2,
+  .section-topics.list-view h2 {
+    margin: 0; }
+    .section-events.list-view h2 a,
+    .section-groups.list-view h2 a,
+    .section-topics.list-view h2 a {
+      text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
