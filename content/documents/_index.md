@@ -20,3 +20,6 @@ weight: 5
 
 [Articles Summary](https://drive.google.com/file/d/0ByjDvJ8l9tK9V0VKR3c1bzFfOU0/view?usp=sharing)
 : A brief overview summary of the key areas covered in the Articles.  It is intended as a brief aid memoire for reference but does not replace the Articles and the full Articles must be referred to for the full detail on these areas.
+
+[Meeetings and decision making](https://drive.google.com/file/d/1lgud6id5-7SsQCmJ6DZPTXt6QTM0OkII/view?usp=sharing)
+: The Yard Decision Making Process
