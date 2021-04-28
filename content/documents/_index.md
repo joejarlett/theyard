@@ -8,6 +8,13 @@ weight: 5
 : This folder has been set up for any shared information. You will need to request access.
 
 ## Residents
+
+Handbook - Members
+: Coming soon
+
+Handbook - Tenants
+: Coming soon
+
 [TP1 Summary](https://drive.google.com/file/d/0ByjDvJ8l9tK9VXVNWjFxeXpiR28/view?usp=sharing)
 : A summary of the Land Registry's TP1 as it applies to The Yard.  We hope it is more readable than the original but it is not a legal document and we take no responsibility for any action taken based upon what it says.
 
