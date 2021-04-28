@@ -15,15 +15,15 @@
 
   "thumbnailGutterWidth": 2,
   "thumbnailGutterHeight": 2,
-  "thumbnailBorderVertical": 8,
-  "thumbnailBorderHorizontal": 8,
+  "thumbnailBorderVertical": 1,
+  "thumbnailBorderHorizontal": 1,
   
-  "thumbnailDisplayTransition":          "slideUp2",
+  "thumbnailDisplayTransition":          "descriptionAppear",
   "thumbnailDisplayTransitionDuration":  350,  
   "thumbnailDisplayInterval":            20,   
-  "galleryDisplayTransition":            "rotateX",
+  "galleryDisplayTransition":            "fadeIn",
   "galleryDisplayTransitionDuration":    350,
-  "thumbnailHoverEffect2": "scale120|borderLighter",
+  "thumbnailHoverEffect2": "scale100|borderLighter",
 
   "viewerToolbar":   {
     "display":    false
