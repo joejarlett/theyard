@@ -1,7 +1,7 @@
 {{ $early := resources.Get "js/script-early.js" | minify | fingerprint -}}
 <script src="{{ $early.RelPermalink }}"></script>
 {{ if $.Param "jquery" -}}
-{{ $jquery := resources.Get "js/lib/jquery.slim.min.js" | fingerprint -}}
+{{ $jquery := resources.Get "js/lib/jquery.min.js" | fingerprint -}}
 <script defer src="{{ $jquery.RelPermalink }}"></script>
 {{ end -}}
 {{ $umbrella := resources.Get "js/lib/umbrella.min.js" | fingerprint -}}
@@ -22,3 +22,5 @@
 {{ end -}}
 {{ $script := resources.Get "js/script.js" | minify | fingerprint -}}
 <script defer src="{{ $script.RelPermalink }}"></script>
+
+

@@ -1,9 +1,9 @@
 ---
 title: Email list
-weight: 1
+weight: 2
 ---
 
-This group has been set up for The yard, Mina rd, Boiling wells Ln, Watercress rd, Hopetoun rd. The list has been around for a while and is really useful and fun.
+This group has been set up for The yard residence for distribute information regarding the management of the yard.
 
 To Join:  
 1. Email [the-yard+subscribe@groups.io](mailto:the-yard+subscribe@groups.io)  or [here](https://groups.io/g/the-yard)

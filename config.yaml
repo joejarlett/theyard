@@ -41,6 +41,7 @@ params:
   poweredby: false
   sidebar: false
   submitted: false
+  #jquery: true
   google_fonts: [
     ["Raleway", "400, 700"],
     ["Open Sans", "400, 400i, 700, 700i"]

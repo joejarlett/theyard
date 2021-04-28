@@ -1,0 +1,36 @@
+{{ $class :=  or (.Get "class") "center" }}
+{{ $image = resources.GetMatch (.Get "src") }}
+{{ $caption := "" }}
+
+
+{{/* Generate Thumbnail */}}
+{{ if ge $image.Width $image.Height }}
+{{ if ge $image.Width "600" }}
+    {{ $.Scratch.Set "thumbnail" ($image.Resize "600x q90") }}
+{{ else}}
+    {{ $.Scratch.Set "thumbnail" $image }}
+{{ end }}
+{{ else }}
+{{ if ge $image.Height "450" }}
+    {{ $.Scratch.Set "thumbnail" ($image.Resize "x450 q90") }}
+{{ else }}
+    {{ $.Scratch.Set "thumbnail" $image }}
+{{ end }}
+{{ end }}
+
+{{ if (.Get "caption") }}
+    {{ $caption = (.Get "caption" | markdownify | plainify) }}
+{{ else }}
+    {{ $caption = (path.Split $image.Name).File }}
+{{ end }}
+
+{{ $nanogallery2_settings := getJSON "/static/ng2_lightbox.json" | jsonify}}
+
+<figure class="{{ $class }}">
+<img src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" data-ngsrc="{{$image.RelPermalink}}"
+    data-nanogallery2-lightbox="{{$nanogallery2_settings}}"
+    alt="{{ $caption }}" {{ with .Get "width" }} width="{{.}}"{{ end }}/>
+{{ with .Get "link" }}<a href="{{.}}">{{ end }}
+{{ with .Get "caption" }}<figcaption>{{ $caption }}</figcaption>{{ end }}
+{{ if .Get "link" }}</a>{{ end }}
+</figure>
