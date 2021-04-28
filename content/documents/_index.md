@@ -9,10 +9,10 @@ weight: 5
 
 ## Residents
 
-Handbook - Members
+[Handbook - Members](documents/)
 : Coming soon
 
-Handbook - Tenants
+[Handbook - Tenants](documents/)
 : Coming soon
 
 [TP1 Summary](https://drive.google.com/file/d/0ByjDvJ8l9tK9VXVNWjFxeXpiR28/view?usp=sharing)
