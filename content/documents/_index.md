@@ -9,10 +9,13 @@ weight: 5
 
 ## Residents
 
-[Handbook - Members](documents/)
+[Proposal form](/documents/proposals/)
+: Some description
+
+[Handbook - Members](/documents/)
 : Coming soon
 
-[Handbook - Tenants](documents/)
+[Handbook - Tenants](/documents/)
 : Coming soon
 
 [TP1 Summary](https://drive.google.com/file/d/0ByjDvJ8l9tK9VXVNWjFxeXpiR28/view?usp=sharing)
