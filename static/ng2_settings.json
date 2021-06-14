@@ -23,7 +23,7 @@
   "thumbnailDisplayInterval":            20,   
   "galleryDisplayTransition":            "fadeIn",
   "galleryDisplayTransitionDuration":    350,
-  "thumbnailHoverEffect2": "scale100|borderLighter",
+  
 
   "viewerToolbar":   {
     "display":    false
