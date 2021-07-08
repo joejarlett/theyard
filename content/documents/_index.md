@@ -1,12 +1,9 @@
 ---
-title: Documents
+title: Living in the yard
+linktitle: For Residents
 menu: main
 weight: 5
 ---
-
-
-
-## Residents
 
 
 
