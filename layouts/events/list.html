@@ -6,16 +6,24 @@
 <h2>Future</h2>
 {{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
 {{ $events := $events | intersect (where $events "Date" "ge" now) }}
+{{ if eq 0 (len $events)}}
+<p>No up and comming events.</p>
+{{ else }}
 {{- range $events -}}
     {{ .Render "summary"}}
 {{ end -}}
+{{ end }}
 
 <h2>Past</h2>
-{{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
+{{ $events := (where .Site.RegularPages.ByDate "Section" "events").Reverse }}
 {{ $events := $events | intersect (where $events "Date" "lt" now) }}
+{{ if eq 0 (len $events)}}
+<p>No past events.</p>
+{{ else }}
 {{- range $events -}}
     {{ .Render "summary"}}
 {{ end -}}
+{{ end }}
 
 </main>
 {{ end }}

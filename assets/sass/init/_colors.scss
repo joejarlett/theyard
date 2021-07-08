@@ -13,6 +13,7 @@ $blue: #0072b9;
 $red: #c00;
 $green: #11773c;
 $yellow: #fd0;
+$brown: rgb(156, 78, 26);
 
 // Colors used in the main content area.
 $brand: $green;
@@ -68,6 +69,6 @@ $error-bg: lighten($error, 57%);
 
 $watermark: $grey-extra-light;
 
-$headings: $nearblack;
+$headings: $brown;
 
 $code: $nearblack;

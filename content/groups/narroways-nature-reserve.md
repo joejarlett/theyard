@@ -1,6 +1,7 @@
 ---
 title: Narroways nature reserve
 weight: 3
+icon: /images/facebook-icon.png
 ---
 
 This group has been set up to look after the woodland and surrounding area. 

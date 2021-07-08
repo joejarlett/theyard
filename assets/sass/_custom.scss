@@ -3,10 +3,39 @@
 // Site custom styles
 
 body {
-	// background-image: url(bgd.jpg);
-	// background-size: contain;
-	// background-repeat: no-repeat;
 }
+h1 {
+  margin-top: 0;
+}
+dl {
+	display: flex;
+    flex-flow: row wrap;
+	
+	dt {
+		flex-basis: 25%;
+    	margin: 0 0 10px 0;
+		text-align: right;
+		min-width: 110px;
+	}
+	dd {
+		flex-basis: 60%;
+		flex-grow: 1;
+		margin: 0 0 10px 10px;
+		padding-left:10px;
+		border-left: 1px solid #000;
+	}
+}
+figure {
+  display: inline-block;
+  // max-width: 200px;
+  margin-right: $zen-gutters;
+  img {
+    // max-width: 200px;
+    max-height: 200px;
+
+  }
+}
+
 #page-image {
 	position: fixed;
 	width: 450px;
@@ -14,20 +43,49 @@ body {
 	margin-left: -450px;
 
 	background-image: url(bgd.jpg);
-	background-size: cover;
+	background-size: contain;
+  background-position: right;
 	background-repeat: no-repeat;
+
+  @include respond-to(s) {
+    margin-left: -280px;
+  }
 }
+.layout__header {
+  margin-top: 40px;
+  @include respond-to(xs) {
+    margin-top: 0px;
+  }
+}
+.layout__header,
+.layout__navigation,
+.layout__breadcrumbs,
+.layout__main,
+.layout__footer
+{
+  margin-left:0px;
+  @include respond-to(s) {
+    margin-left: 170px;
+  }
+}
+
+
 .layout__second-sidebar h4,
 .layout__second-sidebar ul {
 	margin: 0;
 	line-height: 1.3em;
 	font-size: 0.6em;
 }
+.layout__main {
+  margin-top: $zen-gutters;
+}
+
 .header__logo-image {
 	width: 50px;
 	height: 50px;
 }
 .breadcrumbs {
+  margin-bottom: $zen-gutters;
   font-size: 0.7em;
   margin-right: auto;
   a {
@@ -75,6 +133,14 @@ body {
   }
 }
 
+.frontpage-list {
+  li::before {
+    display: inline !important;;
+    padding-right: 0 !important;;
+    content: "" !important;
+  }
+}
+
 .section-events.list-view,
 .section-groups.list-view,
 .section-topics.list-view {
@@ -89,4 +155,20 @@ body {
       text-decoration: none;
     }
   }
+}
+
+
+.list-title-icon {
+  width:16px;
+  height:16px;
+  float:left;
+  margin-right:8px;
+  display: inline-block;
+}
+.summary-title-icon {
+  width:36px;
+  height:36px;
+  float:left;
+  margin-right:$zen-gutters;
+  display: inline-block;
 }

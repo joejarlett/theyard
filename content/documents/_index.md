@@ -4,13 +4,11 @@ menu: main
 weight: 5
 ---
 
-[Shared documents folder](https://drive.google.com/drive/u/0/folders/0ByjDvJ8l9tK9bWsyOUNieXk1X2M)
-: This folder has been set up for any shared information. You will need to request access.
+
 
 ## Residents
 
-[Proposal form](/documents/proposals/)
-: Some description
+
 
 [Handbook - Members](/documents/)
 : Coming soon
@@ -26,3 +24,9 @@ weight: 5
 
 [Meeetings and decision making](https://drive.google.com/file/d/1lgud6id5-7SsQCmJ6DZPTXt6QTM0OkII/view?usp=sharing)
 : The Yard Decision Making Process
+
+[New Proposal form](/documents/proposals/)
+: Some description
+
+[The Yard management documents folder](https://drive.google.com/drive/u/0/folders/0ByjDvJ8l9tK9bWsyOUNieXk1X2M)
+: This folder has been set up for any shared information. You will need to request access.

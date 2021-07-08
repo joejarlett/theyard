@@ -1,6 +1,7 @@
 ---
 title: Email list
 weight: 2
+icon: /images/email-icon.jpg
 ---
 
 This group has been set up for The yard residence for distribute information regarding the management of the yard.

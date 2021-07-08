@@ -5,15 +5,25 @@
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
 <div class="content dashboard">
     <div class="column">
-        <div>
+        <div class="frontpage-content">
             <h2>{{ .Title }}</h2>
             {{ .Content }}
         </div>
-        <div>
+        <div class="frontpage-list frontpage-list-groups">
+            <h2>Groups</h2>
+            {{ $groups := where .Site.RegularPages "Section" "groups" }}
+            {{ $groups := $groups | first 5 }}
+            <ul>
+            {{- range $groups -}}
+                {{ .Render "li"}}
+            {{- end -}}
+            </ul>
+        </div>
+        <div class="frontpage-list frontpage-list-topics">
             <h2>Topics</h2>
             {{ $topics := where .Site.RegularPages "Section" "topics" }}
             {{ $topics := $topics | first 5 }}
-            <ul class="topics">
+            <ul class="frontpage-topics">
             {{- range $topics -}}
                 {{ .Render "li"}}
             {{- end -}}
@@ -21,7 +31,7 @@
         </div>
     </div>
     <div class="column">
-        <div>
+        <div class="frontpage-list frontpage-list-events">
             <h2>Future events</h2>
             
             {{ $events := where .Site.RegularPages.ByDate "Section" "events" }}

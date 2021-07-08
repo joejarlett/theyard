@@ -1,7 +1,7 @@
 ---
 title: About
 menu: main
-weight: 2
+weight: 3
 gallery: true
 ---
 
