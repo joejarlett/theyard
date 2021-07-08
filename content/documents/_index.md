@@ -8,7 +8,7 @@ weight: 5
 
 
 [Handbook - Members](/documents/)
-: Coming soon
+: This is the handbook
 
 [Handbook - Tenants](/documents/)
 : Coming soon
