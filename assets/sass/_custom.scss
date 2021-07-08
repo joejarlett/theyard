@@ -141,10 +141,14 @@ figure {
   }
 }
 
-.section-events.list-view,
 .section-groups.list-view,
 .section-topics.list-view {
   background-color: rgba($brand, 0.2);
+  
+}
+.section-groups.list-view,
+.section-events.list-view,
+.section-topics.list-view, {
   margin: 40px 0 ;
   padding: 20px;
   border-radius: 20px 3px;
@@ -173,12 +177,12 @@ figure {
   display: inline-block;
 }
 
-.categories-filter {
+.scope-filter {
   border: 1px solid $grey-light;
   border-radius: 5px;
-  padding: $zen-gutters;
+  padding: 8px;
   
-  .categories-filter-label{
+  .scope-filter-label{
     display: inline-block;
     // float: left;
   }
@@ -190,16 +194,22 @@ figure {
   }
   li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 10px 0 0;
     padding: 4px 8px;
+    border-radius: 8px;
+    border: solid 1px $grey-light;
   }
-  .categories-filter-item-all {
-    background-color:$grey-light;
-  }
-  .categories-filter-item-general {
-    background-color: aqua;
-  }
-  .categories-filter-item-residents {
-    background-color: yellow;
-  }
+  
+}
+
+.scope-filter-item-all {
+  background-color:$grey-light;
+}
+.scope-filter-item-general, 
+.event-general {
+  background-color: rgba($green, 0.2);
+}
+.scope-filter-item-residents, 
+.event-residents {
+  background-color: rgba($blue, 0.2);
 }

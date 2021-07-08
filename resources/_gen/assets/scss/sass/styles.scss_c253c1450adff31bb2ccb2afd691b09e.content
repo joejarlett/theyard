@@ -950,20 +950,23 @@ figure {
   padding-right: 0 !important;
   content: "" !important; }
 
-.section-events.list-view,
 .section-groups.list-view,
 .section-topics.list-view {
-  background-color: rgba(17, 119, 60, 0.2);
+  background-color: rgba(17, 119, 60, 0.2); }
+
+.section-groups.list-view,
+.section-events.list-view,
+.section-topics.list-view {
   margin: 40px 0;
   padding: 20px;
   border-radius: 20px 3px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); }
-  .section-events.list-view h2,
   .section-groups.list-view h2,
+  .section-events.list-view h2,
   .section-topics.list-view h2 {
     margin: 0; }
-    .section-events.list-view h2 a,
     .section-groups.list-view h2 a,
+    .section-events.list-view h2 a,
     .section-topics.list-view h2 a {
       text-decoration: none; }
 
@@ -981,25 +984,32 @@ figure {
   margin-right: 20px;
   display: inline-block; }
 
-.categories-filter {
+.scope-filter {
   border: 1px solid #cccccc;
   border-radius: 5px;
-  padding: 20px; }
-  .categories-filter .categories-filter-label {
+  padding: 8px; }
+  .scope-filter .scope-filter-label {
     display: inline-block; }
-  .categories-filter ul {
+  .scope-filter ul {
     display: inline-block;
     margin: 0;
     padding: 0; }
-  .categories-filter li {
+  .scope-filter li {
     display: inline-block;
-    margin: 0 10px;
-    padding: 4px 8px; }
-  .categories-filter .categories-filter-item-all {
-    background-color: #cccccc; }
-  .categories-filter .categories-filter-item-general {
-    background-color: aqua; }
-  .categories-filter .categories-filter-item-residents {
-    background-color: yellow; }
+    margin: 0 10px 0 0;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: solid 1px #cccccc; }
+
+.scope-filter-item-all {
+  background-color: #cccccc; }
+
+.scope-filter-item-general,
+.event-general {
+  background-color: rgba(17, 119, 60, 0.2); }
+
+.scope-filter-item-residents,
+.event-residents {
+  background-color: rgba(0, 114, 185, 0.2); }
 
 /*# sourceMappingURL=styles.css.map */

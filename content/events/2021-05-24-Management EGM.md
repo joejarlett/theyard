@@ -1,8 +1,7 @@
 ---
 title: Management EGM
 date: 2021-05-24
-categories:
-    - residents
+scope: residents
 ---
 
 Everyone is welcome to sit in

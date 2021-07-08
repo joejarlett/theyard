@@ -2,7 +2,7 @@
 <main class="main layout__main">
 <h1 class="title">{{ .Title }}</h1>
 {{ .Content }}
-{{ partial "catagories.html" . }}
+{{ partial "scope.html" . }}
 <h2>Up comming</h2>
 {{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
 {{ $events := $events | intersect (where $events "Date" "ge" now) }}
@@ -14,7 +14,7 @@
 {{ end -}}
 {{ end }}
 
-<h2>Past</h2>
+<h2>Already happened</h2>
 {{ $events := (where .Site.RegularPages.ByDate "Section" "events").Reverse }}
 {{ $events := $events | intersect (where $events "Date" "lt" now) }}
 {{ if eq 0 (len $events)}}
