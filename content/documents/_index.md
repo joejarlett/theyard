@@ -1,6 +1,6 @@
 ---
 title: Living in the yard
-linktitle: For Residents
+linktitle: For residents
 menu: main
 weight: 5
 ---
