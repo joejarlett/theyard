@@ -1,8 +1,13 @@
 ---
 title: Management EGM
 date: 2021-05-24
-summary: Everyone is welcome to sit in
+categories:
+    - residents
 ---
+
+Everyone is welcome to sit in
+
+<!--more-->
 
 ## Agenda
 - Something

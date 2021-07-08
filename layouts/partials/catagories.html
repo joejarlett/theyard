@@ -1,0 +1,9 @@
+<div class="categories-filter">
+<div class="categories-filter-label">Filter:</div>
+<ul>
+<li class="categories-filter-item-all"><a data-tag="all">All</a></li>
+{{range $name, $taxonomy := .Site.Taxonomies.categories}}	
+    <li class="categories-filter-item-{{$name}}"><a data-tag="{{$name}}">{{humanize $name}}</a></li>
+{{ end }}
+</ul>
+</div>

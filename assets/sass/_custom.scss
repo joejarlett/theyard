@@ -172,3 +172,34 @@ figure {
   margin-right:$zen-gutters;
   display: inline-block;
 }
+
+.categories-filter {
+  border: 1px solid $grey-light;
+  border-radius: 5px;
+  padding: $zen-gutters;
+  
+  .categories-filter-label{
+    display: inline-block;
+    // float: left;
+  }
+  ul {
+    display: inline-block;
+    margin: 0;
+    // float: left;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 4px 8px;
+  }
+  .categories-filter-item-all {
+    background-color:$grey-light;
+  }
+  .categories-filter-item-general {
+    background-color: aqua;
+  }
+  .categories-filter-item-residents {
+    background-color: yellow;
+  }
+}

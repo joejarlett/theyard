@@ -981,4 +981,25 @@ figure {
   margin-right: 20px;
   display: inline-block; }
 
+.categories-filter {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px; }
+  .categories-filter .categories-filter-label {
+    display: inline-block; }
+  .categories-filter ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+  .categories-filter li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 4px 8px; }
+  .categories-filter .categories-filter-item-all {
+    background-color: #cccccc; }
+  .categories-filter .categories-filter-item-general {
+    background-color: aqua; }
+  .categories-filter .categories-filter-item-residents {
+    background-color: yellow; }
+
 /*# sourceMappingURL=styles.css.map */
