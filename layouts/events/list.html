@@ -3,7 +3,7 @@
 <h1 class="title">{{ .Title }}</h1>
 {{ .Content }}
 
-<h2>Future</h2>
+<h2>Up comming</h2>
 {{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
 {{ $events := $events | intersect (where $events "Date" "ge" now) }}
 {{ if eq 0 (len $events)}}

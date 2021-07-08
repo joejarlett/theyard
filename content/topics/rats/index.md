@@ -1,30 +1,8 @@
 ---
-title: Rats
+title: Rats in The Yard
 cover: images/image5.png
 ---
 
-## Keeping rats out of your compost bin
-
-This is the second most common attraction for rats in The Yard, so try these tips to make it harder for them to get into your compost bin
-- Put your compost bin on slabs, so that rats can’t dig underneath it, and put chicken wire underneath and around any openings.
-- An efficient compost bin should be too hot for rats. A good tip is to add plenty of cardboard torn into small pieces, and turn the compost regu larly.
-- Or try a rotating compost tumbler, which you can buy online, or make your own (instructions on YouTube). They also make faster compost than static bins, and aren’t such hard work!
-- Try an enclosed system, like a wormery, which will make a nutrient rich liquid plant food as well as compost (you can buy these online, or make your own, instructions on YouTube)
-
-### Closed system composters
-
-![a wormery and a compost tumbler - they can be expensive](images/image6.png)
-![but you can make your own](images/image4.png)
-
-### Other measures
-- Rats love decking, replace decking with solid structures 
-- Fill in any holes you find, preferably with sharp chippings and keep filling them
-
-It’s up to all of us to police our own gardens to stop providing food and shel ter for rats, and to take responsibility for good stewardship of our gardens. 
-
-“Rats are not the problem, people are!”
-
-## Rats in The Yard
 
 We regularly have sightings of rats in The Yard due to the lack of cats, access to food sources, nearby wild spaces (Narroways, the allotments and The Farm). It’s not possible to entirely eliminate them from The Yard, but we can keep down their numbers if we work together.
 
@@ -67,3 +45,24 @@ Keep bird food off the ground
   - Use ‘no mess’ food like fat balls or ‘suet cakes’ where seeds have to be pecked out individually  
   - Sunflower hearts (with no husk) are popular with birds, and the little waste that falls on the ground can be eaten before nightfall by ground feeders such as blackbirds.  
   - If you take your bird food in each day, then when the birds have fin ished, you can put something like a bin lid on the ground under your feeder, to catch any discarded food, and then dispose of it before rats appear.
+
+## Keeping rats out of your compost bin
+
+This is the second most common attraction for rats in The Yard, so try these tips to make it harder for them to get into your compost bin
+- Put your compost bin on slabs, so that rats can’t dig underneath it, and put chicken wire underneath and around any openings.
+- An efficient compost bin should be too hot for rats. A good tip is to add plenty of cardboard torn into small pieces, and turn the compost regu larly.
+- Or try a rotating compost tumbler, which you can buy online, or make your own (instructions on YouTube). They also make faster compost than static bins, and aren’t such hard work!
+- Try an enclosed system, like a wormery, which will make a nutrient rich liquid plant food as well as compost (you can buy these online, or make your own, instructions on YouTube)
+
+### Closed system composters
+
+![a wormery and a compost tumbler - they can be expensive](images/image6.png)
+![but you can make your own](images/image4.png)
+
+### Other measures
+- Rats love decking, replace decking with solid structures 
+- Fill in any holes you find, preferably with sharp chippings and keep filling them
+
+It’s up to all of us to police our own gardens to stop providing food and shel ter for rats, and to take responsibility for good stewardship of our gardens. 
+
+“Rats are not the problem, people are!”
