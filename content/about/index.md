@@ -1,7 +1,7 @@
 ---
 title: About
 menu: main
-weight: 3
+weight: 4
 gallery: true
 ---
 
@@ -17,24 +17,7 @@ is the result of the passion and determination of many people; those original vi
 who believed that a community-led development could work, and the self-builders and
 neighbours who made it happen.
 
-
-
-If you want to know more there is a book, The Story of the Yard; Building a Community
-by Carrie Hitchcock, available from the Ecomotive office, (middle workshop next to the
-Wild Gooses Space Community Room,) Better Food, or from Carrie (see Personnel p 3).
+If you want to know more there is a book, _The Story of the Yard; Building a Community_ by
+Carrie Hitchcock, available from the St Werburghs branch of the Better Food Company.
 
 {{< gallery directory="gallery1/*" >}}
-
-## History
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-{{< gallery directory="gallery1/*" >}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-{{< gallery directory="gallery2/*" >}}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## 

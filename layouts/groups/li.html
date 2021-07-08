@@ -1,1 +1,1 @@
-<li><a href="/groups">{{ with .Params.icon }}<img src="{{.}}" class="summary-title-icon" />{{ end }}{{ .Title }}</a></li>
+<li><a href="/groups#{{anchorize .Title}}">{{ with .Params.icon }}<img src="{{.}}" class="summary-title-icon" />{{ end }}{{ .Title }}</a></li>

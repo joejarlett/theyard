@@ -281,7 +281,7 @@ button,
     background: #666666;
     color: #fff; }
 
-[disabled].button,
+.button[disabled],
 button[disabled],
 [disabled][type='button'],
 [disabled][type='reset'],
@@ -292,15 +292,15 @@ button[disabled],
   border-color: #eeeeee;
   background-image: none;
   text-shadow: none; }
-  [disabled].button:hover,
+  .button[disabled]:hover,
   button[disabled]:hover,
   [disabled][type='button']:hover,
   [disabled][type='reset']:hover,
-  [disabled][type='submit']:hover, [disabled].button:focus,
+  [disabled][type='submit']:hover, .button[disabled]:focus,
   button[disabled]:focus,
   [disabled][type='button']:focus,
   [disabled][type='reset']:focus,
-  [disabled][type='submit']:focus, [disabled].button:active,
+  [disabled][type='submit']:focus, .button[disabled]:active,
   button[disabled]:active,
   [disabled][type='button']:active,
   [disabled][type='reset']:active,
@@ -857,11 +857,18 @@ dl {
     padding-left: 10px;
     border-left: 1px solid #000; }
 
-figure {
-  display: inline-block;
-  margin-right: 20px; }
-  figure img {
-    max-height: 200px; }
+.figures-200 {
+  display: flex; }
+  .figures-200 figure.image {
+    display: inline-block;
+    margin-right: 20px; }
+    .figures-200 figure.image img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain; }
+    .figures-200 figure.image figcaption {
+      width: 200px;
+      text-align: center; }
 
 #page-image {
   position: fixed;
@@ -961,6 +968,16 @@ figure {
   padding: 20px;
   border-radius: 20px 3px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); }
+  .section-groups.list-view .article-cover,
+  .section-events.list-view .article-cover,
+  .section-topics.list-view .article-cover {
+    float: right;
+    margin: 0 0 20px 20px; }
+    .section-groups.list-view .article-cover img,
+    .section-events.list-view .article-cover img,
+    .section-topics.list-view .article-cover img {
+      max-width: 200px;
+      max-height: 200px; }
   .section-groups.list-view h2,
   .section-events.list-view h2,
   .section-topics.list-view h2 {
@@ -994,12 +1011,13 @@ figure {
     display: inline-block;
     margin: 0;
     padding: 0; }
-  .scope-filter li {
-    display: inline-block;
-    margin: 0 10px 0 0;
-    padding: 4px 8px;
-    border-radius: 8px;
-    border: solid 1px #cccccc; }
+    .scope-filter ul li {
+      display: inline-block;
+      margin: 0 4px 0 0;
+      border-radius: 8px; }
+      .scope-filter ul li a {
+        padding: 0 8px;
+        text-decoration: none; }
 
 .scope-filter-item-all {
   background-color: #cccccc; }

@@ -5,4 +5,7 @@ weight: 1
 events: true
 ---
 
-Welcome to the event page ... [TODO]
+This page is for events, both locally and in The Yard. Local events are in green boxes, events
+for residents are in blue boxes.
+
+[Add event](#) - coming soon!

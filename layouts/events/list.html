@@ -2,28 +2,34 @@
 <main class="main layout__main">
 <h1 class="title">{{ .Title }}</h1>
 {{ .Content }}
-{{ partial "scope.html" . }}
-<h2>Up comming</h2>
-{{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
-{{ $events := $events | intersect (where $events "Date" "ge" now) }}
-{{ if eq 0 (len $events)}}
-<p>No up and comming events.</p>
-{{ else }}
-{{- range $events -}}
-    {{ .Render "summary"}}
-{{ end -}}
-{{ end }}
 
-<h2>Already happened</h2>
-{{ $events := (where .Site.RegularPages.ByDate "Section" "events").Reverse }}
-{{ $events := $events | intersect (where $events "Date" "lt" now) }}
-{{ if eq 0 (len $events)}}
-<p>No past events.</p>
-{{ else }}
-{{- range $events -}}
-    {{ .Render "summary"}}
-{{ end -}}
-{{ end }}
+<div class="scope-filter">
+    <div class="scope-filter-label">Filter:</div>
+    <ul>
+    <li class="scope-filter-item-all"><a href="javascript;" data-tag="all">All</a></li>
+        <li class="scope-filter-item-general"><a href="javascript;" data-tag="general">General</a></li>
+        <li class="scope-filter-item-residents"><a href="javascript;" data-tag="residents">Residents</a></li>
+    </ul>
+</div>
+<div class="events-list">
+    <h2>Up comming</h2>
+    {{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
+    {{ $events := $events | intersect (where $events "Date" "ge" now) }}
+    {{- range $events -}}
+        {{ .Render "summary"}}
+    {{ end -}}
+    <p class="no-events hidden">No up and coming events.</p>
+</div>
+
+<div class="events-list">
+    <h2>Already happened</h2>
+    {{ $events := (where .Site.RegularPages.ByDate "Section" "events").Reverse }}
+    {{ $events := $events | intersect (where $events "Date" "lt" now) }}
+    {{- range $events -}}
+        {{ .Render "summary"}}
+    {{ end -}}
+    <p class="no-events hidden">No up and coming events.</p>
+</div>
 
 </main>
 {{ end }}

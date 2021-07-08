@@ -25,16 +25,25 @@ dl {
 		border-left: 1px solid #000;
 	}
 }
-figure {
-  display: inline-block;
-  // max-width: 200px;
-  margin-right: $zen-gutters;
-  img {
-    // max-width: 200px;
-    max-height: 200px;
 
+.figures-200 {
+  display: flex;
+  figure.image {
+    display: inline-block;
+    // background-color: $grey-light;
+    margin-right: $zen-gutters;
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+    figcaption {
+      width: 200px;
+      text-align: center;
+    }
   }
 }
+
 
 #page-image {
 	position: fixed;
@@ -153,6 +162,16 @@ figure {
   padding: 20px;
   border-radius: 20px 3px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+  .article-cover {
+    float:right;
+    margin: 0 0 20px 20px;
+    img {
+      max-width: 200px;
+      max-height: 200px;
+    }
+  }
+
   h2 {
     margin: 0;
     a {
@@ -191,14 +210,18 @@ figure {
     margin: 0;
     // float: left;
     padding: 0;
+    li {
+      display: inline-block;
+      margin: 0 4px 0 0;
+      border-radius: 8px;
+      // border: solid 1px $grey-light;
+      a {
+        padding: 0 8px;
+        text-decoration: none;
+      }
+    }
   }
-  li {
-    display: inline-block;
-    margin: 0 10px 0 0;
-    padding: 4px 8px;
-    border-radius: 8px;
-    border: solid 1px $grey-light;
-  }
+  
   
 }
 

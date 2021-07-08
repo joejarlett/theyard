@@ -1,4 +1,4 @@
-<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view">
+<article id="{{anchorize .Title}}" class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view">
 <header>
 <h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">{{ with .Params.icon }}<img src="{{.}}" class="summary-title-icon" />{{ end }}{{ .Title }}</h2>
 {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . -}}{{ end }}

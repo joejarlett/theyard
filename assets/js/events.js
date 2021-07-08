@@ -8,24 +8,30 @@
     u('.scope-filter a').on('click', function (e) {
         e.preventDefault();
         let id = u(e.target).data("tag")
-        filterJournalByTag(id);
+        filterByScope(id);
     });
-    function filterJournalByTag(id) {
-        if (id == "all") {
-            u('article.section-events.list-view').each(function (node, i) {
+    function filterByScope(id) {
+        u('.events-list').each(function (node) {
+            console.log("list");
+            let list = u(node);
+            let noevents = true;
+            list.find('article').each(function (node) {
+                console.log("article");
                 let n = u(node);
-                n.removeClass('hidden');
-            });
-        } else {
-            u('article.section-events.list-view').each(function (node, i) {
-                let n = u(node);
-
-                if (n.hasClass("event-" + id)) {
+                if (id == "all" || n.hasClass("event-" + id)) {
                     n.removeClass('hidden');
+                    noevents = false;
                 } else {
                     n.addClass('hidden');
                 }
             });
-        }
+            if (noevents) {
+                list.find('.no-events').removeClass('hidden');
+            } else {
+                list.find('.no-events').addClass('hidden');
+            }
+        });
     }
+    filterByScope('all');
+
 })(u);

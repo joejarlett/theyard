@@ -1,6 +1,6 @@
 ---
 title: Rats in The Yard
-cover: images/image5.png
+cover: images/rats.jpg
 ---
 
 
@@ -19,9 +19,11 @@ Rats need food, water, shelter. If they find it, they will move in. If they donâ
 
 Bird feeders are the biggest attraction for rats in The Yard. Of course we want to feed the birds, so follow this advice to make it less attractive for rats.
 
-![Bird feeders attract rats](images/image1.png)
-![Install a baffle below the food](images/image2.png)
-![Some feeders use weight to close feed holes](images/image3.png)
+{{< wrapper "figures-200" nomarkdown >}}
+{{< figure src="images/image1.png" caption="Bird feeders attract rats" >}}
+{{< figure src="images/image2.png" caption="Install a baffle below the food" >}}
+{{< figure src="images/image3.png" caption="Some feeders use weight to close feed holes" >}}
+{{</ wrapper >}}
 
 Take down your bird feeders in the summer months.
 : Birds have plentiful alternative food sources in the summer, and the lack of easy access to food will cause rats to move out to seek food elsewhere, and reset the wildlife population balance.
@@ -56,8 +58,10 @@ This is the second most common attraction for rats in The Yard, so try these tip
 
 ### Closed system composters
 
-![a wormery and a compost tumbler - they can be expensive](images/image6.png)
-![but you can make your own](images/image4.png)
+{{< wrapper "figures-200" nomarkdown >}}
+{{< figure src="images/image6.png" caption="a wormery and a compost tumbler - they can be expensive" >}}
+{{< figure src="images/image4.png" caption="but you can make your own" >}}
+{{</ wrapper >}}
 
 ### Other measures
 - Rats love decking, replace decking with solid structures 
