@@ -839,6 +839,11 @@ figure.podcast audio {
 .js-submitted textarea:invalid {
   background-color: #fff0f0; }
 
+body {
+  background-image: url(body-bgd2.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
 h1 {
   margin-top: 0; }
 
