@@ -281,7 +281,7 @@ button,
     background: #666666;
     color: #fff; }
 
-.button[disabled],
+[disabled].button,
 button[disabled],
 [disabled][type='button'],
 [disabled][type='reset'],
@@ -292,15 +292,15 @@ button[disabled],
   border-color: #eeeeee;
   background-image: none;
   text-shadow: none; }
-  .button[disabled]:hover,
+  [disabled].button:hover,
   button[disabled]:hover,
   [disabled][type='button']:hover,
   [disabled][type='reset']:hover,
-  [disabled][type='submit']:hover, .button[disabled]:focus,
+  [disabled][type='submit']:hover, [disabled].button:focus,
   button[disabled]:focus,
   [disabled][type='button']:focus,
   [disabled][type='reset']:focus,
-  [disabled][type='submit']:focus, .button[disabled]:active,
+  [disabled][type='submit']:focus, [disabled].button:active,
   button[disabled]:active,
   [disabled][type='button']:active,
   [disabled][type='reset']:active,
