@@ -1,6 +1,6 @@
 --- 
 title: Neighborhood watch
-published: false
+published: true
 ---
 
 ## Incidents advice from Avon and Somerset police
