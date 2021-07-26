@@ -49,6 +49,13 @@ dl {
   }
 }
 
+a.github-edit {
+  float: right;
+  text-decoration: none;
+}
+article .submitted {
+  display: none;
+}
 
 #page-image {
 	position: fixed;

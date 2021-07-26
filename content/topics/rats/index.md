@@ -6,6 +6,8 @@ cover: images/rats.jpg
 
 We regularly have sightings of rats in The Yard due to the lack of cats, access to food sources, nearby wild spaces (Narroways, the allotments and The Farm). It’s not possible to entirely eliminate them from The Yard, but we can keep down their numbers if we work together.
 
+<!--more-->
+
 ### Why are rats a problem in general?
 
 - Rats spread diseases through their urine, faeces and saliva. Children playing in The Yard are particularly at risk from ingesting something nasty. - Rats can bite when threatened, another risk of infection or disease. - Rats are very prolific breeders, and will easily establish a large number if they find a good habitat.

@@ -4,11 +4,11 @@ cover: images/image2.png
 ---
 
 
-![](images/image2.png)
-
 Pollution in the air we breathe has been a problem for many years. It is increasing, but so is awareness of the problem and the individual and political will to find solutions. 
 
 A group of us in the valley have been collecting data, and we wanted to share this information with our neighbours, not to point fingers, apportion blame or demand action, but to provide clear information so that everyone can make informed decisions. 
+
+<!--more-->
 
 There is overwhelming evidence of the dangers of particulate matter (PM) in the air and its causes. Bristol City Council is taking this seriously with the diesel ban/clean air zone. However, the evidence is clear that solid fuel burning is a major cause of the most dangerous, very tiny particles that get into our lungs and bloodstream and cause multiple health problems from lung and heart diseases to dementia and strokes. 
 

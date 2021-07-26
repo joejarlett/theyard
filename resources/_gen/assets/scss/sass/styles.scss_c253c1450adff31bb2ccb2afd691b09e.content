@@ -875,6 +875,13 @@ dl {
       width: 200px;
       text-align: center; }
 
+a.github-edit {
+  float: right;
+  text-decoration: none; }
+
+article .submitted {
+  display: none; }
+
 #page-image {
   position: fixed;
   width: 450px;

@@ -1,0 +1,9 @@
+<nav class="top-menu header__top_navigation">
+    <h2 class="visually-hidden">Top Menu</h2>
+    <ul class="navbar">
+        {{ range .Site.Menus.top }}
+        <li><a class="menu-top-nav-item" href="{{ .URL }}" {{ if .Identifier}} id="{{.Identifier}}"
+                {{end}}title="{{ .Title }}">{{with .Page.Params.menuicon -}}{{ . | safeHTML}} {{end}}</a></li>
+        {{ end }}
+    </ul>
+</nav>

@@ -6,6 +6,7 @@
 <div class="content dashboard">
     <div class="column">
         <div class="frontpage-content">
+            {{ with .Site.Params.githubEdit}}<a class="github-edit role-editor hidden" target="_blank" href="{{ . }}{{ replace $.File.Path "\\" "/" }}"><i class="fa fa-fw fa-pen"></i></a>{{ end }}
             <h2>{{ .Title }}</h2>
             {{ .Content }}
         </div>

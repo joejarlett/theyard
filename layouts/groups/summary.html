@@ -1,5 +1,6 @@
 <article id="{{anchorize .Title}}" class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view">
 <header>
+{{ with .Site.Params.githubEdit}}<a class="github-edit role-editor hidden" target="_blank" href="{{ . }}{{ replace $.File.Path "\\" "/" }}"><i class="fa fa-fw fa-pen"></i></a>{{ end }}
 <h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">{{ with .Params.icon }}<img src="{{.}}" class="summary-title-icon" />{{ end }}{{ .Title }}</h2>
 {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . -}}{{ end }}
 
