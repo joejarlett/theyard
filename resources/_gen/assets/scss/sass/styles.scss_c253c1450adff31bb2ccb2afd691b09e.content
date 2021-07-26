@@ -281,7 +281,7 @@ button,
     background: #666666;
     color: #fff; }
 
-[disabled].button,
+.button[disabled],
 button[disabled],
 [disabled][type='button'],
 [disabled][type='reset'],
@@ -292,15 +292,15 @@ button[disabled],
   border-color: #eeeeee;
   background-image: none;
   text-shadow: none; }
-  [disabled].button:hover,
+  .button[disabled]:hover,
   button[disabled]:hover,
   [disabled][type='button']:hover,
   [disabled][type='reset']:hover,
-  [disabled][type='submit']:hover, [disabled].button:focus,
+  [disabled][type='submit']:hover, .button[disabled]:focus,
   button[disabled]:focus,
   [disabled][type='button']:focus,
   [disabled][type='reset']:focus,
-  [disabled][type='submit']:focus, [disabled].button:active,
+  [disabled][type='submit']:focus, .button[disabled]:active,
   button[disabled]:active,
   [disabled][type='button']:active,
   [disabled][type='reset']:active,
@@ -998,6 +998,20 @@ article .submitted {
     .section-events.list-view h2 a,
     .section-topics.list-view h2 a {
       text-decoration: none; }
+
+.section-residents.list-view h2 {
+  margin-bottom: 0; }
+  .section-residents.list-view h2 a.doc-link {
+    text-decoration: none; }
+    .section-residents.list-view h2 a.doc-link img {
+      display: inline-block;
+      height: 30px;
+      width: 30px; }
+
+.section-residents.list-view .content {
+  margin-left: 40px; }
+  .section-residents.list-view .content p {
+    margin-top: 0; }
 
 .list-title-icon {
   width: 16px;

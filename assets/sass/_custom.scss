@@ -53,6 +53,7 @@ a.github-edit {
   float: right;
   text-decoration: none;
 }
+
 article .submitted {
   display: none;
 }
@@ -169,7 +170,7 @@ article .submitted {
 }
 .section-groups.list-view,
 .section-events.list-view,
-.section-topics.list-view, {
+.section-topics.list-view {
   margin: 40px 0 ;
   padding: 20px;
   border-radius: 20px 3px;
@@ -191,7 +192,27 @@ article .submitted {
     }
   }
 }
-
+.section-residents.list-view {
+  
+  h2 {
+    a.doc-link {
+      
+      text-decoration: none;
+      img {
+        display: inline-block;
+        height:30px;
+        width:30px;
+      }
+    }
+    margin-bottom: 0;
+  }
+  .content {
+    margin-left: 40px;
+    p {
+      margin-top: 0;
+    }
+  }
+}
 
 .list-title-icon {
   width:16px;

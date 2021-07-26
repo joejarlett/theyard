@@ -22,9 +22,9 @@ Rats need food, water, shelter. If they find it, they will move in. If they donâ
 Bird feeders are the biggest attraction for rats in The Yard. Of course we want to feed the birds, so follow this advice to make it less attractive for rats.
 
 {{< wrapper "figures-200" nomarkdown >}}
-{{< figure src="images/image1.png" caption="Bird feeders attract rats" >}}
+{{< figure src="images/image3.png" caption="Bird feeders attract rats" >}}
 {{< figure src="images/image2.png" caption="Install a baffle below the food" >}}
-{{< figure src="images/image3.png" caption="Some feeders use weight to close feed holes" >}}
+{{< figure src="images/image1.png" caption="Some feeders use weight to close feed holes" >}}
 {{</ wrapper >}}
 
 Take down your bird feeders in the summer months.

@@ -21,12 +21,6 @@ and items for meeting agendas. We have regular, advertised open meetings and wel
 new directors and anyone who wants to be involved in developing and maintaining this
 community.
 
-## Handbook
-
-[Handbook - Members](/residents/)
-: Our Handbook is a vital source of information for all those living on The Yard. It acts as our
-constitution and sets out our collective values as well as sets out everyday guidelines for
-practical matters. Please read it!
 
 [Handbook - Tenants](/residents/)
 : This is an edited version of the handbook with all matters relevant to tenants in the yard.
@@ -58,20 +52,3 @@ Articles of Association
 
 [Management documents folder](https://drive.google.com/drive/u/0/folders/0ByjDvJ8l9tK9bWsyOUNieXk1X2M)
 : This folder has been set up for any shared information. You will need to request access.
-
-## Contact
-
-Yard management
-: Carrie e.m.c.yard@gmail.com
-
-Recycling
-: 
-
-Gardening
-: 
-
-Website
-: Sue suetate11@gmail.com
-
-Technical
-: Joe joe.jarlett@gmail.com

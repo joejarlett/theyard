@@ -20,7 +20,7 @@ title: New Event
       <label for="scope">Scope:</label>
       <select id="scope" name="scope">
         <option value="general">General</option>
-        <option value="residence">Residence of The Yard</option>
+        <option value="residence">Residents of The Yard</option>
       </select>
     </div>
 </form>
