@@ -1,5 +1,5 @@
 ---
-title: Handbook Members
+title: Handbook
 weight: 1
 icon: /images/google-docs.png
 ---

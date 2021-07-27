@@ -1,8 +1,6 @@
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view">
 {{with $.Page.Resources.GetMatch (string .Params.cover)}}{{ $.Scratch.Set "thumbnail" ( .Resize "x600 q100") }}
 <div class="article-cover">
-    
-    
     <a href="{{ .RelPermalink }}"><img class="summary-icon" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" class="list-cover-image" /></a>
 </a></div>
 {{ end }}

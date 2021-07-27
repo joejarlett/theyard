@@ -1,6 +1,7 @@
 ---
 title: AVAG
 weight: 4
+cover: Bridge-Farm-Logo-1.jpg
 ---
 
 Ashley Vale Action Group (AVAG) is a not for profit community action group that was

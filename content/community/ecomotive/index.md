@@ -1,6 +1,7 @@
 ---
 title: Ecomotive
 weight: 4
+cover: Ecomotive-logo.png
 ---
 
 Ecomotive is a workers’ co-operative which grew out of the 40-home Ashley Vale eco self

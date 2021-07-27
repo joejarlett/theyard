@@ -1,10 +1,12 @@
 ---
 title: Narroways nature reserve
 weight: 3
-icon: /images/narroways-nature-icon.png
+cover: images/narroways-nature-icon.png
 ---
 
-https://narroways.wordpress.com
+Narroways Hill is a little grassy & wooded ridge dissected by railway lines lying just North of inner-city Bristol, in the neighbourhood of St Werburghs.
+
+<!--more-->
 
 In 1997 local folk campaigned to save open land at Narroways Junction from development.
 The area became an official nature reserve-a green oasis that will be valued for generations
@@ -19,3 +21,5 @@ new members, and volunteers for one of their regular workdays.
 
 
 To Join: [Facebook group](https://www.facebook.com/groups/256518934818118)
+
+https://narroways.wordpress.com

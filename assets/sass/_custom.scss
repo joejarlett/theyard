@@ -9,6 +9,11 @@ body {
   
   
 }
+a.header__site-link:link, .header__site-link:visited {
+   
+    text-decoration: none;
+  
+}
 h1 {
   margin-top: 0;
 }
@@ -164,13 +169,15 @@ article .submitted {
 }
 
 .section-groups.list-view,
-.section-topics.list-view {
+.section-topics.list-view, 
+.section-community.list-view {
   background-color: rgba($brand, 0.2);
   
 }
 .section-groups.list-view,
 .section-events.list-view,
-.section-topics.list-view {
+.section-topics.list-view, 
+.section-community.list-view {
   margin: 40px 0 ;
   padding: 20px;
   border-radius: 20px 3px;
@@ -267,5 +274,5 @@ article .submitted {
 }
 .scope-filter-item-residents, 
 .event-residents {
-  background-color: rgba($blue, 0.2);
+  background-color: rgba($yellow, 0.2);
 }

@@ -548,7 +548,7 @@ aside ol {
     color: #11773c;
     border-color: #11773c; }
   .message.warning {
-    background-color: #fffce6;
+    background-color: #fff4af;
     color: #4d4d4d;
     border-color: #4d4d4d; }
   .message.error {
@@ -844,6 +844,9 @@ body {
   background-attachment: fixed;
   background-size: cover; }
 
+a.header__site-link:link, .header__site-link:visited {
+  text-decoration: none; }
+
 h1 {
   margin-top: 0; }
 
@@ -970,33 +973,39 @@ article .submitted {
   content: "" !important; }
 
 .section-groups.list-view,
-.section-topics.list-view {
+.section-topics.list-view,
+.section-community.list-view {
   background-color: rgba(17, 119, 60, 0.2); }
 
 .section-groups.list-view,
 .section-events.list-view,
-.section-topics.list-view {
+.section-topics.list-view,
+.section-community.list-view {
   margin: 40px 0;
   padding: 20px;
   border-radius: 20px 3px;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); }
   .section-groups.list-view .article-cover,
   .section-events.list-view .article-cover,
-  .section-topics.list-view .article-cover {
+  .section-topics.list-view .article-cover,
+  .section-community.list-view .article-cover {
     float: right;
     margin: 0 0 20px 20px; }
     .section-groups.list-view .article-cover img,
     .section-events.list-view .article-cover img,
-    .section-topics.list-view .article-cover img {
+    .section-topics.list-view .article-cover img,
+    .section-community.list-view .article-cover img {
       max-width: 200px;
       max-height: 200px; }
   .section-groups.list-view h2,
   .section-events.list-view h2,
-  .section-topics.list-view h2 {
+  .section-topics.list-view h2,
+  .section-community.list-view h2 {
     margin: 0; }
     .section-groups.list-view h2 a,
     .section-events.list-view h2 a,
-    .section-topics.list-view h2 a {
+    .section-topics.list-view h2 a,
+    .section-community.list-view h2 a {
       text-decoration: none; }
 
 .section-residents.list-view h2 {
@@ -1054,6 +1063,6 @@ article .submitted {
 
 .scope-filter-item-residents,
 .event-residents {
-  background-color: rgba(0, 114, 185, 0.2); }
+  background-color: rgba(200, 173, 0, 0.2); }
 
 /*# sourceMappingURL=styles.css.map */
