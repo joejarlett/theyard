@@ -5,7 +5,6 @@ weight: 1
 events: true
 ---
 
-This page is for events, both locally and in The Yard. Local events are in green boxes, events
-for residents are in blue boxes.
+Find out whats happening in the community. The events are for both the general community (green) and specifically for residents of The Yard (blue).
 
 [Add event](#) - coming soon!
