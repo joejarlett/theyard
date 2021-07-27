@@ -10,8 +10,9 @@
   const flexSearch = new FlexSearch({
     doc: {
       id: 'id',
+      index: ["summary", "title",'content'],
       field: ['title','tags','content','date'],
-      store: ['title','content','date','permalink']
+      store: ['title','summary','date','permalink']
     }
   });
 
