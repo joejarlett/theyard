@@ -12,4 +12,6 @@ Yard Management
 : [e.m.c.yard@gmail.com](mailto:e.m.c.yard@gmail.com)  
 
 Website
-: [suetate11@gmail.com](mailto:suetate11@gmail.com) or [joe.jarlett@gmail.com](mailto:joe.jarlett@gmail.com)
+: [e.m.c.yard@gmail.com](mailto:e.m.c.yard@gmail.com)  
+  [suetate11@gmail.com](mailto:suetate11@gmail.com)  
+  [joe.jarlett@gmail.com](mailto:joe.jarlett@gmail.com)

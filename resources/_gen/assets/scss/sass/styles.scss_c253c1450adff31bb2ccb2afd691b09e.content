@@ -1008,6 +1008,13 @@ article .submitted {
     .section-topics.list-view h2 a,
     .section-community.list-view h2 a {
       text-decoration: none; }
+  .section-groups.list-view:after,
+  .section-events.list-view:after,
+  .section-topics.list-view:after,
+  .section-community.list-view:after {
+    clear: both;
+    content: "";
+    display: block; }
 
 .section-residents.list-view h2 {
   margin-bottom: 0; }

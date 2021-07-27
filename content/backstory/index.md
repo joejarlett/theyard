@@ -23,3 +23,5 @@ Carrie Hitchcock, available from the St Werburghs branch of the Better Food Comp
 {{< gallery directory="gallery1/*" >}}
 
 {{< gallery directory="gallery2/*" >}}
+
+Photo credits David Kelson

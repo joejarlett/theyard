@@ -1,5 +1,5 @@
 ---
-title: The Yard email list
+title: The Yard residents email list
 weight: 2
 icon: /images/email-icon.jpg
 ---

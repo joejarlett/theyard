@@ -199,6 +199,11 @@ article .submitted {
       text-decoration: none;
     }
   }
+  &:after{
+    clear: both;
+    content: "";
+    display: block;
+  }
 }
 .section-residents.list-view {
   
@@ -220,6 +225,7 @@ article .submitted {
       margin-top: 0;
     }
   }
+  
 }
 
 .list-title-icon {
