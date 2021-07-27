@@ -880,7 +880,8 @@ dl {
 
 a.github-edit {
   float: right;
-  text-decoration: none; }
+  text-decoration: none;
+  line-height: 40px; }
 
 article .submitted {
   display: none; }
@@ -1014,8 +1015,8 @@ article .submitted {
     text-decoration: none; }
     .section-residents.list-view h2 a.doc-link img {
       display: inline-block;
-      height: 30px;
-      width: 30px; }
+      height: 1em;
+      margin-bottom: -4px; }
 
 .section-residents.list-view .content {
   margin-left: 40px; }
@@ -1053,6 +1054,23 @@ article .submitted {
       .scope-filter ul li a {
         padding: 0 8px;
         text-decoration: none; }
+
+.event-date {
+  font-size: 1.3em;
+  background-color: rgba(153, 153, 153, 0.2);
+  text-align: right;
+  padding: 8px;
+  float: right; }
+
+.event-time {
+  margin-left: 10px; }
+
+.section-events.list-view .event-date {
+  margin-top: -20px;
+  margin-right: -20px; }
+
+.section-events.single-view header {
+  clear: right; }
 
 .scope-filter-item-all {
   background-color: #cccccc; }

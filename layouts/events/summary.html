@@ -1,6 +1,14 @@
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view event-{{.Params.scope}}">
 <header>
-<h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}"><a href="{{ .RelPermalink }}">{{ .Date.Format ($.Param "dateformat" | default "Mon Jan 2 2006") }} - {{ .Title }}</a></h2>
+    <div class="event-date">
+        {{ .Date.Format "Mon Jan 2 2006" }}
+        {{ if $.Param "duration" | default false }}
+        <span class="event-time">
+            {{ .Date.Format "15:04" }}-{{ (.Date.Add (time.ParseDuration (printf "%d%s" .Params.duration "h"))).Format "15:04" }}
+        </span>
+        {{ end }}
+    </div>
+<h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . -}}{{ end }}
 </header>
 <div class="content">

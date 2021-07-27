@@ -57,6 +57,7 @@ dl {
 a.github-edit {
   float: right;
   text-decoration: none;
+  line-height: 40px;
 }
 
 article .submitted {
@@ -207,8 +208,8 @@ article .submitted {
       text-decoration: none;
       img {
         display: inline-block;
-        height:30px;
-        width:30px;
+        height:1em;
+        margin-bottom: -4px;
       }
     }
     margin-bottom: 0;
@@ -263,6 +264,29 @@ article .submitted {
   }
   
   
+}
+
+
+.event-date {
+  font-size: 1.3em;
+  background-color: rgba($grey, 0.2);
+  text-align: right;
+  padding:8px;
+  float:right;
+}
+.event-time {
+  margin-left:10px;
+}
+.section-events.list-view {
+  .event-date {
+    margin-top: -20px;
+    margin-right:-20px;
+  }
+}
+.section-events.single-view {
+  header {
+    clear:right;
+  }
 }
 
 .scope-filter-item-all {
