@@ -1,7 +1,7 @@
 ---
 title: Ashley Vale Allotment Association
 weight: 3
-cover: ashley-vale-allotments.jpg 
+cover: ashley-vale-allotment-association.jpg 
 ---
 
 The Farm manages 13 acres of community allotments (formerly known as Ashley Vale Allotment Association) that surround the Farm site. It is bounded by Stony Lane, Ashley Hill and the railway line on the side of Gaunt Lane. (Please note: the allotment site on the north side of Stony Lane is managed separately by Bristol City Council.)
