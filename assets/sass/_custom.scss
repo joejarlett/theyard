@@ -159,6 +159,10 @@ article .submitted {
       content: none;
     }
   }
+  .section-events h2 {
+    @include font-size(xl);
+    clear: right;
+  }
 }
 
 .frontpage-list {
@@ -275,7 +279,8 @@ article .submitted {
 
 .event-date {
   font-size: 1.3em;
-  background-color: rgba($grey, 0.2);
+  //background-color: rgba($grey, 0.2);
+  border-bottom: 1px solid $grey;
   text-align: right;
   padding:8px;
   float:right;

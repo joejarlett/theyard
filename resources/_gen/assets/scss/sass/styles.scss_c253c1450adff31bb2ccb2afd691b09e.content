@@ -967,6 +967,9 @@ article .submitted {
         padding: 10px; } }
   .dashboard .topics li:before {
     content: none; }
+  .dashboard .section-events h2 {
+    font-size: 1.18181818rem;
+    clear: right; }
 
 .frontpage-list li::before {
   display: inline !important;
@@ -1064,7 +1067,7 @@ article .submitted {
 
 .event-date {
   font-size: 1.3em;
-  background-color: rgba(153, 153, 153, 0.2);
+  border-bottom: 1px solid #999999;
   text-align: right;
   padding: 8px;
   float: right; }
