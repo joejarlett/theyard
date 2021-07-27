@@ -21,3 +21,5 @@ If you want to know more there is a book, _The Story of the Yard; Building a Com
 Carrie Hitchcock, available from the St Werburghs branch of the Better Food Company.
 
 {{< gallery directory="gallery1/*" >}}
+
+{{< gallery directory="gallery2/*" >}}
