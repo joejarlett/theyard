@@ -1,19 +1,13 @@
 <article id="{{anchorize .Title}}" class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view">
 <header>
 {{ with .Site.Params.githubEdit}}<a class="github-edit role-editor hidden" target="_blank" href="{{ . }}{{ replace $.File.Path "\\" "/" }}"><i class="fa fa-fw fa-pen"></i></a>{{ end }}
-{{ if $.Param "doc" | default false }}
 <h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">
-    <a class="doc-link" href="{{ $.Params.doc}}" target="_blank"><img src="https://lh3.googleusercontent.com/1DECuhPQ1y2ppuL6tdEqNSuObIm_PW64w0mNhm3KGafi40acOJkc4nvsZnThoDKTH8gWyxAnipJmvCiszX8R6UAUu1UyXPfF13d7" />
+    <a class="doc-link" href="{{ $.Params.link | default .RelPermalink}}" target="_blank"><img src="{{ .Params.icon | default "/images/google-docs.png"}}" />
     {{ .Title }}</a>
 </h2>
-{{ else }}
-<h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}"></h2>
-{{ .Title }}
-</h2>
-{{ end }}
 
 </header>
 <div class="content">
-{{ .Content }}
+{{ .Summary }}
 </div>
 </article>
