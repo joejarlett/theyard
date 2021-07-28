@@ -1,6 +1,6 @@
 ---
 title: AVAG
-weight: 4
+weight: 6
 cover: Bridge-Farm-Logo-1.jpg
 ---
 

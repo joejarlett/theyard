@@ -6,6 +6,6 @@ icon: /images/email-icon.jpg
 
 We have a local Neighbourhood Watch group. 
 
-To subscribe go to: theyardplusneighbourhoodwatch+subscribe@googlegroups.com
+To subscribe: [Email link](mailto:theyardplusneighbourhoodwatch+subscribe@googlegroups.com)
 
-To unsubscribe from this group and stop receiving emails from it, send an email to theyardplusneighbourhoodwatch+unsubscribe@googlegroups.com.
+To unsubscribe [Email link](mailto:theyardplusneighbourhoodwatch+unsubscribe@googlegroups.com)

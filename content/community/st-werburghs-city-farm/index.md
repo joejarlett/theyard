@@ -1,6 +1,6 @@
 ---
 title: St Werburghs City Farm
-weight: 3
+weight: 2
 cover: swcf-logo.png 
 ---
 

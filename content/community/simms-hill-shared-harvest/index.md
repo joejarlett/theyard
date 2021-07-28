@@ -1,6 +1,6 @@
 ---
 title: Simms Hill Shared Harvest
-weight: 3
+weight: 5
 cover: simms-hill-logo.png 
 ---
 

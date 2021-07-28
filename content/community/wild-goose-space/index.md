@@ -1,6 +1,6 @@
 ---
 title: Wild goose space
-weight: 3
+weight: 1
 cover: wildgoosespace-logo.png 
 ---
 

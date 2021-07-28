@@ -212,6 +212,7 @@ article .submitted {
 .section-residents.list-view {
   
   h2 {
+    margin-left: 40px;
     a.doc-link {
       
       text-decoration: none;
@@ -219,6 +220,7 @@ article .submitted {
         display: inline-block;
         height:1em;
         margin-bottom: -4px;
+        margin-left: -30px;
       }
     }
     margin-bottom: 0;
@@ -310,4 +312,10 @@ article .submitted {
 .scope-filter-item-residents, 
 .event-residents {
   background-color: rgba($yellow, 0.2);
+}
+
+span.key {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
 }

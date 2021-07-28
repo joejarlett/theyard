@@ -1,6 +1,6 @@
 ---
 title: Ecomotive
-weight: 4
+weight: 6
 cover: Ecomotive-logo.png
 ---
 

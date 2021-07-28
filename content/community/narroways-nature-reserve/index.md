@@ -1,6 +1,6 @@
 ---
 title: Narroways nature reserve
-weight: 3
+weight: 4
 cover: images/narroways-nature-icon.png
 ---
 

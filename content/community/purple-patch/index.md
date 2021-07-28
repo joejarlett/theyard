@@ -1,6 +1,6 @@
 ---
 title: Purple Patch
-weight: 2
+weight: 5
 cover: purple-patch-logo.jpg
 ---
 

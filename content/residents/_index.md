@@ -5,18 +5,8 @@ menu: main
 weight: 5
 ---
 
-The Yard is managed by The Mina Road (Bristol) Estate Management Company Ltd. (The
-EMC) which exists to administrate and execute the responsibilities connected with the
-collectively owned areas of the estate. All property owners on the estate signed a contract
-at point of sale agreeing to be a Member of this Company, and to pay service charges
-towards the maintenance of site infrastructure and communal gardens. The following
-documents explain decision making structures and your rights and responsibilities as a
-Member.
+The Yard is an ‘intentional community’ that grew from the original self-builders who, buying plots before there was planning permission, rescued the site from developers [(see Backstory)](/backstory/). It was established on principles of community and sustainability [(see Handbook)](/residents/handbook/) which still inform how we live here.
 
-Company Directors are elected by Members annually at our AGM. Directors for for 2021-
-2022 are: John Tolson, Carrie Hitchcock, Sue Tate, Jon Brockwell, Joe Jarlett and tenant
-director Sarah Flint. Company administrator is Carrie Hitchcock, 244 Mina Rd, Tel: 0117 924
-3076, e.m.c.yard@gmail.com. Please contact Carrie with any queries, concerns, suggestions,
-and items for meeting agendas. We have regular, advertised open meetings and welcome
-new directors and anyone who wants to be involved in developing and maintaining this
-community.
+There is a management committee with a group of directors [(see EMC)](/residents/handbook/#personnel) - property owners pay a small monthly fee - and decisions are made in regular meetings [(see meetings and decision making)](/residents/#meeting-minutes). Newcomers and long term residents are all encouraged to be part of the [management and decision making process](/residents/#meeetings-and-decision-making). There are things that we sign up to (eg no cats because we back onto the nature reserve and no more cars than will fit on your property - which means we can have a shared garden instead of a car park. [(see Handbook](/residents/handbook/). Articles- (/residents/#articles-of-association) and TP1 which lay everything out.)
+
+Before COVID we had regular ‘feasts’ in the [Wild Goose Space](/community/wild-goose-space/), picnics on the green, carols and a bonfire night – we plan to re-start these events soon.
