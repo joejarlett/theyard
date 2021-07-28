@@ -7,6 +7,6 @@
 
   'use strict';
 
-  $('.role-editor').removeClass('hidden');
+  //$('.role-editor').removeClass('hidden');
 
 })(u);
