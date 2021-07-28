@@ -10,4 +10,4 @@ On site we have a community hall - [Wild Goose Space](/community/wild-goose-spac
 
 Find information on all these below plus Ashly Vale Action Group (AVAG), Ecomotive, Neighbourhood Watch and Sims Hall Shared Harvest
 
-If you’d like to add a community group or asset for the Ashly Vale area to this page do send in information [here](/find-us#contact).
+If you’d like to add a community group or asset for the Ashly Vale area to this page do send in information [here](/contact).
