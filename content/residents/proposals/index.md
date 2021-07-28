@@ -2,7 +2,7 @@
 title: Proposals
 weight: 3
 icon: /images/google-form.png
-published: true
+draft: true
 ---
 
 Please use this form if you would like to propose an action, activity or improvement for the
