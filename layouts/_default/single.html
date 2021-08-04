@@ -3,6 +3,11 @@
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
 <header>
 {{ with .Site.Params.githubEdit}}<a class="github-edit role-editor hidden" target="_blank" href="{{ . }}{{ replace $.File.Path "\\" "/" }}"><i class="fa fa-fw fa-pen"></i></a>{{ end }}
+{{with $.Page.Resources.GetMatch (string .Params.cover)}}{{ $.Scratch.Set "thumbnail" ( .Resize "x600 q100") }}
+<div class="article-cover">
+    <img class="single-cover" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" class="single-cover-image" /></a>
+</a></div>
+{{ end }}
 <h1 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">{{ .Title }}</h1>
 {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . }}{{ end -}}
 {{ if .Params.tags }}{{ partial "tags.html" . }}{{ end -}}
