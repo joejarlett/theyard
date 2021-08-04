@@ -1,5 +1,5 @@
 ---
-title: WhatsApp
+title: The Yard....ish - WhatsApp
 weight: 1
 icon: /images/whatsapp-icon.jpg
 ---
