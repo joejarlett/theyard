@@ -5,3 +5,4 @@ link: https://drive.google.com/drive/folders/1a6GOOT0CoyfFwhe_KL638ORtHFtGk4rO?u
 icon: /images/google-drive.png
 ---
 
+EMC directors meeting minutes
