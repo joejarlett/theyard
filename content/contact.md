@@ -12,3 +12,4 @@ Yard Management
 Website content
 : [yard-website@googlegroups.com](mailto:yard-website@googlegroups.com)  
 
+To submit new content such as local News, Events, Community information please email it to [yard-website@googlegroups.com](mailto:yard-website@googlegroups.com)
