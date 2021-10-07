@@ -189,16 +189,35 @@ article .submitted {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 
   .article-cover {
-    float:right;
-    margin: 0 0 20px 20px;
-    img {
-      max-width: 200px;
-      max-height: 200px;
+    text-align: center;
+    @include respond-to(l) {
+      float:right;
+      margin: 0 0 20px 20px;
     }
+    
+
+    img {
+      // width:100%;
+      max-width: 100%;
+      max-height: 200px;
+      margin:auto;
+      
+      @include respond-to(l) {
+        width:none;
+        max-width: 200px;
+        max-height: 200px;
+        
+      }
+    }
+    
   }
 
   h2 {
     margin: 0;
+    text-align: center;
+    @include respond-to(l) {
+      text-align: left;
+    }
     a {
       text-decoration: none;
     }

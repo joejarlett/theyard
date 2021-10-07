@@ -281,7 +281,7 @@ button,
     background: #666666;
     color: #fff; }
 
-.button[disabled],
+[disabled].button,
 button[disabled],
 [disabled][type='button'],
 [disabled][type='reset'],
@@ -292,15 +292,15 @@ button[disabled],
   border-color: #eeeeee;
   background-image: none;
   text-shadow: none; }
-  .button[disabled]:hover,
+  [disabled].button:hover,
   button[disabled]:hover,
   [disabled][type='button']:hover,
   [disabled][type='reset']:hover,
-  [disabled][type='submit']:hover, .button[disabled]:focus,
+  [disabled][type='submit']:hover, [disabled].button:focus,
   button[disabled]:focus,
   [disabled][type='button']:focus,
   [disabled][type='reset']:focus,
-  [disabled][type='submit']:focus, .button[disabled]:active,
+  [disabled][type='submit']:focus, [disabled].button:active,
   button[disabled]:active,
   [disabled][type='button']:active,
   [disabled][type='reset']:active,
@@ -993,19 +993,41 @@ article .submitted {
   .section-events.list-view .article-cover,
   .section-topics.list-view .article-cover,
   .section-community.list-view .article-cover {
-    float: right;
-    margin: 0 0 20px 20px; }
+    text-align: center; }
+    @media (min-width: 888px) {
+      .section-groups.list-view .article-cover,
+      .section-events.list-view .article-cover,
+      .section-topics.list-view .article-cover,
+      .section-community.list-view .article-cover {
+        float: right;
+        margin: 0 0 20px 20px; } }
     .section-groups.list-view .article-cover img,
     .section-events.list-view .article-cover img,
     .section-topics.list-view .article-cover img,
     .section-community.list-view .article-cover img {
-      max-width: 200px;
-      max-height: 200px; }
+      max-width: 100%;
+      max-height: 200px;
+      margin: auto; }
+      @media (min-width: 888px) {
+        .section-groups.list-view .article-cover img,
+        .section-events.list-view .article-cover img,
+        .section-topics.list-view .article-cover img,
+        .section-community.list-view .article-cover img {
+          width: none;
+          max-width: 200px;
+          max-height: 200px; } }
   .section-groups.list-view h2,
   .section-events.list-view h2,
   .section-topics.list-view h2,
   .section-community.list-view h2 {
-    margin: 0; }
+    margin: 0;
+    text-align: center; }
+    @media (min-width: 888px) {
+      .section-groups.list-view h2,
+      .section-events.list-view h2,
+      .section-topics.list-view h2,
+      .section-community.list-view h2 {
+        text-align: left; } }
     .section-groups.list-view h2 a,
     .section-events.list-view h2 a,
     .section-topics.list-view h2 a,
