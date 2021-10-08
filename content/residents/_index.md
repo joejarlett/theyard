@@ -1,8 +1,8 @@
 ---
 title: Living in the yard
-linktitle: For residents
+linktitle: Yard residents
 menu: main
-weight: 5
+weight: 6
 ---
 
 The Yard is an ‘intentional community’ that grew from the original self-builders who, buying plots before there was planning permission, rescued the site from developers [(see Backstory)](/backstory/). It was established on principles of community and sustainability [(see Handbook)](/residents/handbook/) which still inform how we live here.

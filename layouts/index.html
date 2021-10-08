@@ -40,7 +40,15 @@
             {{- range $events -}}
                 {{ .Render "summary"}}
             {{- end -}}
-            <a href="/events/">All events</a>
+            <a class="all-link" href="/events/">All events</a>
+        </div>
+        <div class="frontpage-list frontpage-list-news">
+            <h2>News</h2>
+            {{ $news := where .Site.RegularPages.ByDate "Section" "news" }}
+            {{- range $news -}}
+                {{ .Render "summary"}}
+            {{- end -}}
+            <a class="all-link" href="/news/">All news</a>
         </div>
     </div>
 </div>

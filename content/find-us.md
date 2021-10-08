@@ -1,6 +1,8 @@
 ---
 title: Find us
-menu: main
+menu: top
+menuicon: <i class="fas fa-map-marker-alt"></i>
+weight: 3
 ---
 
 {{< wrapper "map" nomarkdown >}}
