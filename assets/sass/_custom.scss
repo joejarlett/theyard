@@ -167,10 +167,12 @@ article .submitted {
   }
   .section-events.list-view,.section-news.list-view {
     margin: $zen-gutters/2 0;
+    
   }
-  .section-events h2, .section-news h2 {
+  .section-events.list-view h2, .section-news.list-view h2 {
     @include font-size(xl);
     clear: right;
+    text-align: left;
   }
   .all-link {
     display: block;
@@ -229,8 +231,9 @@ article .submitted {
   }
 
   h2 {
-    margin: 0;
-    text-align: center;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    // text-align: center;
     @include respond-to(l) {
       text-align: left;
     }

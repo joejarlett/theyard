@@ -972,9 +972,10 @@ article .submitted {
     content: none; }
   .dashboard .section-events.list-view, .dashboard .section-news.list-view {
     margin: 10px 0; }
-  .dashboard .section-events h2, .dashboard .section-news h2 {
+  .dashboard .section-events.list-view h2, .dashboard .section-news.list-view h2 {
     font-size: 1.18181818rem;
-    clear: right; }
+    clear: right;
+    text-align: left; }
   .dashboard .all-link {
     display: block;
     text-align: right; }
@@ -1036,8 +1037,8 @@ article .submitted {
   .section-news.list-view h2,
   .section-topics.list-view h2,
   .section-community.list-view h2 {
-    margin: 0;
-    text-align: center; }
+    margin: 10px 0 0 0;
+    display: inline-block; }
     @media (min-width: 888px) {
       .section-groups.list-view h2,
       .section-events.list-view h2,
