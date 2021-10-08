@@ -4,7 +4,12 @@ cover: cover.jpg
 weight: 1
 ---
 
-For those that are interested in contributing, There is a document that attempts to capture all that has been discussed about vehicle ownership, vehicle sharing, community vehicle purchase, and community charging station, on whatapp, email, and estate management meetings.
+For those that are interested in contributing, There is a document that attempts to capture all that has been discussed on whatapp, email, and estate management meetings regarding:
+
+- Vehicle ownership
+- Vehicle sharing
+- Community vehicle purchase
+- Community charging station
 
 <!--more-->
 
