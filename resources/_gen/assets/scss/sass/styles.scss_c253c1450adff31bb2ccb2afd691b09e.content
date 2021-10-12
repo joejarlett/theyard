@@ -649,7 +649,7 @@ body {
   background-color: #eeeeee; }
 
 .page {
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-image: linear-gradient(to bottom right, #fefef8, #ffffce); }
 
 .header {
   padding-top: 10px; }

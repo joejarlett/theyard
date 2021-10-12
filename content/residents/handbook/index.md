@@ -4,6 +4,7 @@ weight: 1
 icon: /images/google-docs.png
 ---
 
+<!--more--> 
 
 ## About The Yard
 
@@ -17,7 +18,7 @@ _The Mina Road (Bristol) Estate Management Company Ltd._ exists to administrate 
 
 ### Personnel
 
-Company Directors for 2021-2022 are: John Tolson, Carrie Hitchcock, Sue Tate, Jon Brockwell, Joe Jarlett and tenant director Sarah Flint. Company administrator is Carrie Hitchcock, 244 Mina Rd, Tel: 0117 924 3076, [e.m.c.yard@gmail.com](mailto:e.m.c.yard@gmail.com). Please contact Carrie with any queries, concerns, suggestions, items for agenda, etc., or if you would like a copy of the Company’s ‘Mems and Arts’, or the TP1 you signed at sale.
+Company Directors for 2021-2022 are: John Tolson, Carrie Hitchcock, Sue Tate, Jon Brockwell, Joe Jarlett and Trish Calvert. Company administrator is Carrie Hitchcock, 244 Mina Rd, Tel: 0117 924 3076, [e.m.c.yard@gmail.com](mailto:e.m.c.yard@gmail.com). Please contact Carrie with any queries, concerns, suggestions, items for agenda, etc., or if you would like a copy of the Company’s ‘Mems and Arts’, or the TP1 you signed at sale.
 
 We have regular, advertised open meetings and welcome new directors and anyone who wants to be involved in developing and maintaining this community.
 
