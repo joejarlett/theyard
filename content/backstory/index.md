@@ -24,4 +24,5 @@ Carrie Hitchcock, available from the St Werburghs branch of the Better Food Comp
 
 {{< gallery directory="gallery2/*" >}}
 
-Photo credits David Kelson
+Photo credits: “Collages and panoramas by Dave Kelson, Black and white photos by Carrie
+Hitchcock”
