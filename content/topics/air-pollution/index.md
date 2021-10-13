@@ -1,7 +1,7 @@
 ---
 title: The Air We Breathe in St. Werburghs
 cover: images/image2.png
-weight: 1
+weight: 2
 ---
 
 
@@ -11,9 +11,11 @@ A group of us in the valley have been collecting data, and we wanted to share th
 
 <!--more-->
 
+[Air quality monitor](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&theme=light&var-chipID=esp8266-582482&from=now-24h&to=now)
+
 There is overwhelming evidence of the dangers of particulate matter (PM) in the air and its causes. Bristol City Council is taking this seriously with the diesel ban/clean air zone. However, the evidence is clear that solid fuel burning is a major cause of the most dangerous, very tiny particles that get into our lungs and bloodstream and cause multiple health problems from lung and heart diseases to dementia and strokes. 
 
-In the St Werburghs valley, it’s clear from the charts on the back page that we have a problem during winter, and the data suggests that this is due to burning solid fuels. Many of us installed woodburners believing that they were an environmentally friendly heat source. The uncom fortable truth is that all woodburners, solid fuel stoves and open fires are bad for our health and bad for our neighbour’s health. 
+In the St Werburghs valley, it’s clear from the charts below that we have a problem during winter, and the data suggests that this is due to burning solid fuels. Many of us installed woodburners believing that they were an environmentally friendly heat source. The uncom fortable truth is that all woodburners, solid fuel stoves and open fires are bad for our health and bad for our neighbour’s health. 
 
 In our valley our air pollution is exacerbated by the bowl shape which causes a temperature inversion which traps the smoke in the valley. Our PM2.5 levels regularly exceed the rest of Bristol. 
 

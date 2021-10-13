@@ -18,22 +18,25 @@ h1 {
   margin-top: 0;
 }
 dl {
-	display: flex;
-    flex-flow: row wrap;
 	
-	dt {
-		flex-basis: 25%;
-    	margin: 0 0 10px 0;
-		text-align: right;
-		min-width: 110px;
-	}
-	dd {
-		flex-basis: 60%;
-		flex-grow: 1;
-		margin: 0 0 10px 10px;
-		padding-left:10px;
-		border-left: 1px solid #000;
-	}
+	@include respond-to(s) {
+    display: flex;
+    flex-flow: row wrap;
+    dt {
+      flex-basis: 25%;
+        margin: 0 0 10px 0;
+      text-align: right;
+      min-width: 110px;
+    }
+    dd {
+      flex-basis: 60%;
+      flex-grow: 1;
+      margin: 0 0 10px 10px;
+      padding-left:10px;
+      border-left: 1px solid #000;
+    }
+  }
+	
 }
 
 .figures-200 {
@@ -146,6 +149,9 @@ article .submitted {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  h2 {
+    margin: 0 0;
+  }
   .column {
     flex-basis: 100%;
     padding: 0px;
@@ -159,18 +165,29 @@ article .submitted {
       content: none;
     }
   }
-  .section-events h2 {
+  .section-events.list-view,.section-news.list-view {
+    margin: $zen-gutters/2 0;
+    
+  }
+  .section-events.list-view h2, .section-news.list-view h2 {
     @include font-size(xl);
     clear: right;
+    text-align: left;
+  }
+  .all-link {
+    display: block;
+    text-align: right;
   }
 }
 
 .frontpage-list {
+  margin-bottom: $zen-gutters;
   li::before {
     display: inline !important;;
     padding-right: 0 !important;;
     content: "" !important;
   }
+
 }
 
 .section-groups.list-view,
@@ -181,6 +198,7 @@ article .submitted {
 }
 .section-groups.list-view,
 .section-events.list-view,
+.section-news.list-view,
 .section-topics.list-view, 
 .section-community.list-view {
   margin: 40px 0 ;
@@ -189,16 +207,36 @@ article .submitted {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
 
   .article-cover {
-    float:right;
-    margin: 0 0 20px 20px;
-    img {
-      max-width: 200px;
-      max-height: 200px;
+    text-align: center;
+    @include respond-to(l) {
+      float:right;
+      margin: 0 0 20px 20px;
     }
+    
+
+    img {
+      // width:100%;
+      max-width: 100%;
+      max-height: 200px;
+      margin:auto;
+      
+      @include respond-to(l) {
+        width:none;
+        max-width: 200px;
+        max-height: 200px;
+        
+      }
+    }
+    
   }
 
   h2 {
-    margin: 0;
+    margin: 10px 0 0 0;
+    display: inline-block;
+    // text-align: center;
+    @include respond-to(l) {
+      text-align: left;
+    }
     a {
       text-decoration: none;
     }
@@ -328,3 +366,10 @@ span.key {
   height: 1em;
   width: 1em;
 }
+
+.video-fullwidth {
+  video {
+    width:100%;
+  }
+}
+

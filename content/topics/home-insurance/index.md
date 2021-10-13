@@ -1,6 +1,6 @@
 ---
 title: Home insurance
-weight: 3
+weight: 4
 cover: home-insurance-icon.png
 ---
 

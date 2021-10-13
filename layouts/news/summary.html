@@ -1,0 +1,12 @@
+<article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view event-{{.Params.scope}}">
+<header>
+    <div class="event-date">
+        {{ .Date.Format "Mon Jan 2 2006" }}
+    </div>
+<h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+{{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . -}}{{ end }}
+</header>
+<div class="content">
+{{ .Summary }}
+</div>
+</article>
