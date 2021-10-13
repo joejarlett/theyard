@@ -4,7 +4,7 @@ weight: 1
 icon: /images/google-docs.png
 ---
 
-This document is provided by the EMC when purchasing a property in the estate. It supports the TP1 document by outlining the EMC's and resident's responsibilities and definitions.
+This document is provided by the EMC when purchasing a property in the estate. It supports the TP1 document by outlining definitions as well as the EMC's and resident's responsibilities.
 
 <!--more--> 
 
