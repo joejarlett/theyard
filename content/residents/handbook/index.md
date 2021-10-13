@@ -4,7 +4,7 @@ weight: 1
 icon: /images/google-docs.png
 ---
 
-This document is provided by the EMC when purchasing a property in the estate. It supports the TP1 document by outlining definitions as well as the EMC's and resident's responsibilities.
+Our Handbook is a vital source of information for all those living on The Yard. It acts as our constitution and sets out our collective values as well as sets out everyday guidelines for practical matters. Please read it!
 
 <!--more--> 
 
