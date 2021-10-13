@@ -1,6 +1,6 @@
 ---
 title: Handbook for tenants
-weight: 1
+weight: 2
 icon: /images/google-docs.png
 ---
 

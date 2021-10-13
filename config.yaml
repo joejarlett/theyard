@@ -6,9 +6,9 @@ languageCode: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
 removePathAccents: true
-paginate: 10
+paginate: 100
 paginatePath: "page"
-rssLimit: 20
+rssLimit: 200
 buildFuture: true
 author:
   name: "Joe Jarlett"

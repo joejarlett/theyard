@@ -1,6 +1,6 @@
 ---
 title: Living in The Yard
-linktitle: Yard residents
+linktitle: For residents
 menu: main
 weight: 6
 ---

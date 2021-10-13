@@ -1,11 +1,11 @@
 ---
 title: Proposal Form
-weight: 3
+weight: 4
 icon: /images/google-form.png
 draft: false
 ---
 
-Please use this form if you would like to propose an action, activity or improvement for the Yard and (send it it to the administrator at e.e.c.yard@gmail.com for the next Board meeting.)
+Please use this form if you would like to propose an action, activity or improvement for the Yard for the next Board meeting.
 
 <!--more-->
 
