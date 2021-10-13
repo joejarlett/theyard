@@ -10,6 +10,5 @@ Collecting Wildlife information in the area.
 
 ## Hedgehog spotted on the green! 28/09/2021 
 
-Credits: Team Watsons
-
 {{< video src="/topics/wildlife/hedgehog-on-the-green.mp4" class="video-fullwidth" >}}
+Credits: Team Watsons
