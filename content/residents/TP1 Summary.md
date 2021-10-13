@@ -1,6 +1,6 @@
 ---
 title: TP1 Summary
-weight: 8
+weight: 2
 link: https://drive.google.com/file/d/0ByjDvJ8l9tK9VXVNWjFxeXpiR28/view?usp=sharing
 icon: /images/google-docs.png
 ---

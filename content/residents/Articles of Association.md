@@ -1,6 +1,6 @@
 ---
-title: Articles of Association
-weight: 6
+title: EMC - Articles of Association
+weight: 5
 link: https://drive.google.com/file/d/0ByjDvJ8l9tK9a2o4QlBIRkpuOXM/view?usp=sharing&resourcekey=0-kYR7Fofjm_WbrDY3OIy7_w
 icon: /images/google-docs.png
 ---
