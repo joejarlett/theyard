@@ -23,3 +23,7 @@ https://github.com/joejarlett/theyard
 - _content_ All markdown content and assets
 - _assets_ All scss styling and javascript
 - _static_ All additional media resources
+
+## Markdown guide
+
+https://www.markdownguide.org/basic-syntax/
