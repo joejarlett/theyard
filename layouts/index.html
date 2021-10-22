@@ -44,7 +44,7 @@
         </div>
         <div class="frontpage-list frontpage-list-news">
             <h2>News</h2>
-            {{ $news := where .Site.RegularPages.ByDate "Section" "news" }}
+            {{ $news := where .Site.RegularPages.ByDate.Reverse "Section" "news" }}
             {{- range $news -}}
                 {{ .Render "summary"}}
             {{- end -}}
