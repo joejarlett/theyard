@@ -20,10 +20,10 @@ https://github.com/joejarlett/theyard
 
 ### Folder structure
 
-- _content_ All markdown content and assets
+- _[content](https://github.com/joejarlett/theyard/tree/main/content)_ All markdown content and assets
 - _assets_ All scss styling and javascript
 - _static_ All additional media resources
 
 ## Markdown guide
 
-https://www.markdownguide.org/basic-syntax/
+Here is a short markdown cheatsheet to help with writting content https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
