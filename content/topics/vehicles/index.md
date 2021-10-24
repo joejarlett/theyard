@@ -4,7 +4,7 @@ cover: cover.jpg
 weight: 1
 ---
 
-For those that are interested in contributing, There is a document that attempts to capture all that has been discussed on whatapp, email, and estate management meetings regarding:
+For those that are interested in contributing here is a document that attempts to capture all that has been discussed on whatapp, email, and estate management meetings regarding:
 
 - Vehicle ownership
 - Vehicle sharing
@@ -13,7 +13,7 @@ For those that are interested in contributing, There is a document that attempts
 
 <!--more-->
 
-Please feel free to amend with further ideas and solutions, or make comments within the document or via email.
+Please feel free to offer further ideas and solutions or make comments via email.
 
 https://docs.google.com/document/d/1NtwTKnfb4UkJJfXehygvxkH0jGK7SPWScNRwkQh-6Fg/edit?usp=sharing
 
