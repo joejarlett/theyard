@@ -1,10 +1,16 @@
 {{ define "main" -}}
 <main class="main layout__main">
-    <a href="/news">&lt; Back to all News</a>
+    <a class="backbutton" href="/news">&lt; Back to all News</a>
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
-<div class="event-date">
-    {{ .Date.Format "Mon Jan 2 2006" }}
+    <div class="event-date">
+        {{ .Date.Format "Mon Jan 2 2006" }}
+    </div>
+    {{with $.Page.Resources.GetMatch (string .Params.cover)}}{{ $.Scratch.Set "thumbnail" ( .Resize "750x q100") }}
+<div class="article-cover">
+    <a href="{{ .RelPermalink }}"><img class="summary-icon" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" class="list-cover-image" /></a>
 </div>
+{{ end }}
+
 <header>
 {{ with .Site.Params.githubEdit}}<a class="github-edit role-editor hidden" target="_blank" href="{{ . }}{{ replace $.File.Path "\\" "/" }}"><i class="fa fa-fw fa-pen"></i></a>{{ end }}
 <h1 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}">{{ .Title }}</h1>

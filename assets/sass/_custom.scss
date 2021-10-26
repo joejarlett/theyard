@@ -160,6 +160,11 @@ article .submitted {
       padding: 10px;
     }
   }
+  .section-news.list-view .article-cover {
+    
+      margin:0px;
+    
+  }
   .frontpage-topics {
     li:before {
       content: "\25BA \0020";
@@ -170,7 +175,7 @@ article .submitted {
     }
   }
   .section-events.list-view,.section-news.list-view {
-    margin: $zen-gutters/2 0;
+    margin: 20px 0;
     
   }
   .section-events.list-view h2, .section-news.list-view h2 {
@@ -212,6 +217,7 @@ article .submitted {
 
   .article-cover {
     text-align: center;
+    margin: 0;
     @include respond-to(l) {
       float:right;
       margin: 0 0 20px 20px;
@@ -229,8 +235,8 @@ article .submitted {
       
       @include respond-to(l) {
         width:none;
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 315px;
+        max-height: 315px;
         
       }
     }
@@ -331,15 +337,25 @@ article .submitted {
   
   
 }
-
+.backbutton {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  border-radius: 8px;
+  // border: solid 1px $grey-light;
+  padding: 0 8px;
+  text-decoration: none;
+  
+  background-color: rgba($green, 0.2);
+}
 
 .event-date {
   font-size: 1.3em;
   //background-color: rgba($grey, 0.2);
-  border-bottom: 1px solid $grey;
+  // border-bottom: 1px solid $grey;
   text-align: right;
   padding:8px;
-  float:right;
+  // float:right;
+  margin-top: -20px;
 }
 .event-time {
   margin-left:10px;

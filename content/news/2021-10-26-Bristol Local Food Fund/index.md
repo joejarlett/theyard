@@ -1,6 +1,7 @@
 ---
 title: Bristol Local Food Fund
 date: 2021-10-26
+cover: images/BLFF.jpg
 scope: general
 ---
 

@@ -968,6 +968,8 @@ article .submitted {
       .dashboard .column {
         flex-basis: 50%;
         padding: 10px; } }
+  .dashboard .section-news.list-view .article-cover {
+    margin: 0px; }
   .dashboard .frontpage-topics li:before {
     content: "\25BA \0020";
     font-size: 6px;
@@ -975,7 +977,7 @@ article .submitted {
     top: 5px;
     left: -10px; }
   .dashboard .section-events.list-view, .dashboard .section-news.list-view {
-    margin: 10px 0; }
+    margin: 20px 0; }
   .dashboard .section-events.list-view h2, .dashboard .section-news.list-view h2 {
     font-size: 1.18181818rem;
     clear: right;
@@ -1010,7 +1012,8 @@ article .submitted {
   .section-news.list-view .article-cover,
   .section-topics.list-view .article-cover,
   .section-community.list-view .article-cover {
-    text-align: center; }
+    text-align: center;
+    margin: 0; }
     @media (min-width: 888px) {
       .section-groups.list-view .article-cover,
       .section-events.list-view .article-cover,
@@ -1036,8 +1039,8 @@ article .submitted {
         .section-topics.list-view .article-cover img,
         .section-community.list-view .article-cover img {
           width: none;
-          max-width: 200px;
-          max-height: 200px; } }
+          max-width: 315px;
+          max-height: 315px; } }
   .section-groups.list-view h2,
   .section-events.list-view h2,
   .section-news.list-view h2,
@@ -1120,12 +1123,19 @@ article .submitted {
         padding: 0 8px;
         text-decoration: none; }
 
+.backbutton {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  border-radius: 8px;
+  padding: 0 8px;
+  text-decoration: none;
+  background-color: rgba(17, 119, 60, 0.2); }
+
 .event-date {
   font-size: 1.3em;
-  border-bottom: 1px solid #999999;
   text-align: right;
   padding: 8px;
-  float: right; }
+  margin-top: -20px; }
 
 .event-time {
   margin-left: 10px; }
