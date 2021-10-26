@@ -1,1 +1,1 @@
-<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+<li><a href="{{ .RelPermalink }}">{{ if .Params.linktitle }}{{.Params.linktitle}}{{ else }}{{ .Title }}{{ end }}</a></li>

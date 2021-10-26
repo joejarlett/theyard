@@ -6,7 +6,7 @@
     {{ .Date.Format "Mon Jan 2 2006" }}
     {{ if $.Param "duration" | default false }}
     <span class="event-time">
-        {{ .Date.Format "15:04" }}-{{ (.Date.Add (time.ParseDuration (printf "%d%s" .Params.duration "h"))).Format "15:04" }}
+        {{ .Date.Format "15:04" }}-{{ (.Date.Add (time.ParseDuration (printf "%f%s" (float .Params.duration) "h"))).Format "15:04" }}
     </span>
     {{ end }}
 </div>

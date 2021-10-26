@@ -968,8 +968,12 @@ article .submitted {
       .dashboard .column {
         flex-basis: 50%;
         padding: 10px; } }
-  .dashboard .topics li:before {
-    content: none; }
+  .dashboard .frontpage-topics li:before {
+    content: "\25BA \0020";
+    font-size: 6px;
+    position: absolute;
+    top: 5px;
+    left: -10px; }
   .dashboard .section-events.list-view, .dashboard .section-news.list-view {
     margin: 10px 0; }
   .dashboard .section-events.list-view h2, .dashboard .section-news.list-view h2 {
@@ -1022,7 +1026,9 @@ article .submitted {
     .section-community.list-view .article-cover img {
       max-width: 100%;
       max-height: 200px;
-      margin: auto; }
+      margin: auto;
+      border-radius: 6px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
       @media (min-width: 888px) {
         .section-groups.list-view .article-cover img,
         .section-events.list-view .article-cover img,

@@ -1,5 +1,6 @@
 ---
 title: The Air We Breathe in St. Werburghs
+linktitle: Air pollution
 cover: images/image2.png
 weight: 2
 ---

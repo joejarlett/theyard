@@ -160,9 +160,13 @@ article .submitted {
       padding: 10px;
     }
   }
-  .topics {
+  .frontpage-topics {
     li:before {
-      content: none;
+      content: "\25BA \0020";
+      font-size: 6px;
+      position: absolute;
+      top: 5px;
+      left: -10px;
     }
   }
   .section-events.list-view,.section-news.list-view {
@@ -219,6 +223,9 @@ article .submitted {
       max-width: 100%;
       max-height: 200px;
       margin:auto;
+
+      border-radius: 6px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       
       @include respond-to(l) {
         width:none;

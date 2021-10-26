@@ -1,6 +1,6 @@
 ---
 title: Wildlife in the area
-cover: cover.jpg
+cover: wildlife.png
 weight: 2
 ---
 
