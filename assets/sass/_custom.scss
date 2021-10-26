@@ -218,6 +218,7 @@ article .submitted {
   .article-cover {
     text-align: center;
     margin: 0;
+    //float:right;
     @include respond-to(l) {
       float:right;
       margin: 0 0 20px 20px;
@@ -249,6 +250,10 @@ article .submitted {
     // text-align: center;
     @include respond-to(l) {
       text-align: left;
+      display: inherit;
+    }
+    @include respond-to(s) {
+      display: block;
     }
     a {
       text-decoration: none;
@@ -348,20 +353,22 @@ article .submitted {
   background-color: rgba($green, 0.2);
 }
 
-.event-date {
-  font-size: 1.3em;
-  //background-color: rgba($grey, 0.2);
-  // border-bottom: 1px solid $grey;
-  text-align: right;
-  padding:8px;
-  // float:right;
-  margin-top: -20px;
-}
+// .event-date {
+//   font-size: 1.3em;
+//   //background-color: rgba($grey, 0.2);
+//   // border-bottom: 1px solid $grey;
+//   text-align: right;
+//   padding: 4px;
+//   // float:right;
+//   margin-top: -20px;
+// }
 .event-time {
   margin-left:10px;
 }
-.section-events.list-view {
+.section-events.list-view, .section-news.list-view {
   .event-date {
+    text-align: right;
+    padding: 4px 8px 4px 0;
     margin-top: -20px;
     margin-right:-20px;
   }
