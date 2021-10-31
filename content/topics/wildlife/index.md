@@ -1,7 +1,7 @@
 ---
 title: Wildlife in the area
 cover: wildlife.png
-weight: 2
+date: 2021-10-26
 ---
 
 Collecting Wildlife information in the area.

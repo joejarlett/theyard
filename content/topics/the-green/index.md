@@ -1,7 +1,7 @@
 ---
 title: The green development ideas
 cover: cover.jpg
-weight: 2
+date: 2021-10-31
 ---
 
 We are considering developments on the greed

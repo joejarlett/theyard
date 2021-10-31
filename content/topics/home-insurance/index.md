@@ -1,7 +1,7 @@
 ---
 title: Home insurance
-weight: 4
 cover: home-insurance-icon.png
+date: 2021-10-25
 ---
 
 Due to our properties being listed in a flood plain, we have been subject to a limited number of insurers that will accept our applications. Here is a list of some companies where applications have been successful.

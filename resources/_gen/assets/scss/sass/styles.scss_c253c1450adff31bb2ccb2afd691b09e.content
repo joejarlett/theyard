@@ -970,12 +970,16 @@ article .submitted {
         padding: 10px; } }
   .dashboard .section-news.list-view .article-cover {
     margin: 0px; }
+  .dashboard .frontpage-list-groups a {
+    text-decoration: none; }
   .dashboard .frontpage-topics li:before {
     content: "\25BA \0020";
     font-size: 6px;
     position: absolute;
     top: 5px;
     left: -10px; }
+  .dashboard .frontpage-topics a {
+    text-decoration: none; }
   .dashboard .section-events.list-view, .dashboard .section-news.list-view {
     margin: 20px 0; }
   .dashboard .section-events.list-view h2, .dashboard .section-news.list-view h2 {

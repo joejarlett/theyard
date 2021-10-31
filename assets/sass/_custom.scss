@@ -165,6 +165,11 @@ article .submitted {
       margin:0px;
     
   }
+  .frontpage-list-groups {
+    a {
+      text-decoration: none;
+    }
+  }
   .frontpage-topics {
     li:before {
       content: "\25BA \0020";
@@ -172,6 +177,9 @@ article .submitted {
       position: absolute;
       top: 5px;
       left: -10px;
+    }
+    a {
+      text-decoration: none;
     }
   }
   .section-events.list-view,.section-news.list-view {

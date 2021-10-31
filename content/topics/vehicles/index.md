@@ -1,7 +1,7 @@
 ---
 title: Vehicles in the area
 cover: cover.jpg
-weight: 1
+date: 2021-10-26
 ---
 
 Cars and parking is an onging issue in The Yard. Join the debate and consider ecological solutions. For those that are interested in contributing here is a document that attempts to capture all that has been discussed on whatapp, email, and estate management meetings regarding:
