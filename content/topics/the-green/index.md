@@ -4,7 +4,7 @@ cover: cover.jpg
 date: 2021-10-31
 ---
 
-We are considering developments on the greed
+We are considering developments on the green.
 
 <!--more-->
 
