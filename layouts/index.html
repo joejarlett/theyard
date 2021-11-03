@@ -32,15 +32,19 @@
     </div>
     <div class="column">
         <div class="frontpage-list frontpage-list-events">
-            <h2>Future events</h2>
-            
             {{ $events := where .Site.RegularPages.ByDate "Section" "events" }}
             {{ $events := $events | intersect (where $events "Date" "ge" now) }}
+            {{ if gt (len $events) 0 }}
+            <h2>Future events</h2>
+            
+            
             {{- range $events -}}
                 {{ .Render "summary"}}
             {{- end -}}
             <a class="all-link" href="/events/">All events</a>
+            {{ end }}
         </div>
+        
         <div class="frontpage-list frontpage-list-news">
             <h2>News</h2>
             {{ $news := where .Site.RegularPages.ByDate.Reverse "Section" "news" }}
