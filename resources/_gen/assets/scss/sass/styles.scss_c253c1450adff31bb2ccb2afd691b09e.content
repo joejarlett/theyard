@@ -971,16 +971,34 @@ article .submitted {
   .dashboard .section-event.list-view .article-cover,
   .dashboard .section-news.list-view .article-cover {
     margin: 0px; }
+  .dashboard .frontpage-list-groups ul {
+    width: 100%; }
+  .dashboard .frontpage-list-groups li {
+    display: block; }
   .dashboard .frontpage-list-groups a {
-    text-decoration: none; }
-  .dashboard .frontpage-topics li:before {
-    content: "\25BA \0020";
-    font-size: 6px;
-    position: absolute;
-    top: 5px;
-    left: -10px; }
-  .dashboard .frontpage-topics a {
-    text-decoration: none; }
+    text-decoration: none;
+    padding: 0px 4px;
+    border: 1px solid rgba(17, 119, 60, 0.5);
+    line-height: 40px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 0 4px; }
+    .dashboard .frontpage-list-groups a:hover {
+      background-color: rgba(17, 119, 60, 0.1); }
+  .dashboard .frontpage-topics {
+    width: 100%; }
+    .dashboard .frontpage-topics li {
+      display: block; }
+    .dashboard .frontpage-topics a {
+      text-decoration: none;
+      padding: 0px 4px;
+      border: 1px solid rgba(17, 119, 60, 0.5);
+      line-height: 40px;
+      border-radius: 10px;
+      display: block;
+      margin: 0 0 4px; }
+      .dashboard .frontpage-topics a:hover {
+        background-color: rgba(17, 119, 60, 0.1); }
   .dashboard .section-events.list-view, .dashboard .section-news.list-view {
     margin: 20px 0; }
   .dashboard .section-events.list-view h2, .dashboard .section-news.list-view h2 {
@@ -1115,7 +1133,7 @@ article .submitted {
   width: 36px;
   height: 36px;
   float: left;
-  margin-right: 20px;
+  margin-right: 8px;
   display: inline-block; }
 
 .scope-filter {

@@ -167,20 +167,41 @@ article .submitted {
     
   }
   .frontpage-list-groups {
+    ul {
+      width: 100%;
+    }
+    li {
+      display: block;
+    }
     a {
       text-decoration: none;
+      padding: 0px 4px;
+      border: 1px solid rgba($brand, 0.5);
+      line-height: 40px;
+      border-radius: 10px;
+      display: block;
+      margin: 0 0 4px;
+      &:hover {
+        background-color: rgba($brand, 0.1);
+      }
     }
   }
   .frontpage-topics {
-    li:before {
-      content: "\25BA \0020";
-      font-size: 6px;
-      position: absolute;
-      top: 5px;
-      left: -10px;
+    width: 100%;
+    li {
+      display: block;
     }
     a {
       text-decoration: none;
+      padding: 0px 4px;
+      border: 1px solid rgba($brand, 0.5);
+      line-height: 40px;
+      border-radius: 10px;
+      display: block;
+      margin: 0 0 4px;
+      &:hover {
+        background-color: rgba($brand, 0.1);
+      }
     }
   }
   .section-events.list-view,.section-news.list-view {
@@ -319,7 +340,7 @@ article .submitted {
   width:36px;
   height:36px;
   float:left;
-  margin-right:$zen-gutters;
+  margin-right:8px;
   display: inline-block;
 }
 
