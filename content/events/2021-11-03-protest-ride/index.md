@@ -3,13 +3,15 @@ title: Global day of action for climate justice
 date: 2021-11-06 11:30:00
 duration: 3.5
 scope: general
+cover: cover.jpg
 ---
 
-College green 12:30. Join the global protest!
+Join the global protest!
 
 Group ride times 
-- 11.15 gather at The Yard, 
-- 11.30 set off 
+- 11.15 Gather at The Yard
+- 11.30 Set off 
+- 12:30 College green
 
 <!--more-->
 

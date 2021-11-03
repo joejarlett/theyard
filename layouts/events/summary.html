@@ -1,3 +1,4 @@
+{{$articleLink := .RelPermalink }}
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}list-view event-{{.Params.scope}}">
 <header>
     <div class="event-date">
@@ -8,6 +9,11 @@
         </span>
         {{ end }}
     </div>
+    {{with $.Page.Resources.GetMatch (string .Params.cover)}}{{ $.Scratch.Set "thumbnail" ( .Resize "315x q100") }}
+    <div class="article-cover">
+        <a href="{{ $articleLink }}"><img class="summary-icon" src="{{ ($.Scratch.Get "thumbnail").RelPermalink }}" class="list-cover-image" /></a>
+    </a></div>
+    {{ end }}
 <h2 class="title {{ if $.Param "submitted" | default false }}title-submitted{{ end }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . -}}{{ end }}
 </header>
