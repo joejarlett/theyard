@@ -5,7 +5,7 @@ menu: main
 weight: 6
 ---
 
-The Yard is a community-led, self-build housing initiative [(see Backstory)](/backstory/). It was established on principles of community and sustainability [(see Handbook)](/residents/handbook/) which still inform how we live here.
+The Yard is a community-led, self-build housing initiative [(see Backstory)](/backstory/). It was established on principles of community and sustainability [(see Handbook)](https://drive.google.com/file/d/1I4JH8JxQwakzPMUr1rLZGrD4B4G24HO1/view?usp=sharing) which still inform how we live here.
 
 The Yard is managed by The Mina Road (Bristol) Estate Management Company Ltd. (The EMC) that manages the collectively owned areas of the estate. 
 
