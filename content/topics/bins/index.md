@@ -1,10 +1,10 @@
 ---
 title: The recycling container
-cover: cover.jpg
+cover: cover.png
 date: 2022-01-05
 ---
 
-The collection schedule
+The collection schedule and a guide to recycling festive goods.
 
 <!--more-->
 [{{< figure src="images/Monday-A_Page_1.png" caption="" >}}](Monday-A.pdf)
