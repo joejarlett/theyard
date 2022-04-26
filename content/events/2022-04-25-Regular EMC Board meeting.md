@@ -5,7 +5,7 @@ duration: 2
 scope: residents
 ---
 
-Location: Ecomotive office
+Location: 244 Mina rd
 
 <!--more-->
 
