@@ -1,7 +1,7 @@
 ---
 title: Handbook
 weight: 1
-link: https://drive.google.com/file/d/1I4JH8JxQwakzPMUr1rLZGrD4B4G24HO1/view?usp=sharing
+link: https://drive.google.com/file/d/13WiVuvUBfLc3eMJSzdbpEoYHTwckrmk_/view?usp=sharing
 icon: /images/pdf-icon.jpg
 ---
 
